@@ -1,0 +1,375 @@
+{
+  "selected": [
+    {
+      "authors": "Rong Lin^†^, **Junxiao Zhou^†^**, Chen Chen^†^, Din-Ping Tsai",
+      "title": "Challenges and opportunities of metalenses",
+      "venue": "Nature Reviews Electrical Engineering",
+      "url": "https://doi.org/10.1038/s44287-026-00276-9",
+      "citation": "**3**, 214-225 (2026)"
+    },
+    {
+      "authors": "Xiaoyu Che, Xiaoyuan Liu, Xi Zhang, Yuhao Lei, Yefeng Yu, Lei Wang, **Junxiao Zhou^*^**, Zhishan Gao^*^, Din-Ping Tsai^*^",
+      "title": "Varifocal Alvarez metalens array for adaptive light-field imaging",
+      "venue": "Nature Communications",
+      "url": "https://doi.org/10.1038/s41467-026-74606-8",
+      "citation": "(2026)"
+    },
+    {
+      "authors": "**Junxiao Zhou**, Qianyi Wu, Junxiang Zhao, Clara Posner, Ming Lei, Guanghao Chen, Jin Zhang, Zhaowei Liu^*^",
+      "title": "Fourier optical spin splitting microscopy",
+      "venue": "Physical Review Letters",
+      "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.129.020801",
+      "citation": "**129**, 020801 (2022)",
+      "note": "PRL Editors' Suggestion"
+    },
+    {
+      "authors": "**Junxiao Zhou**, Shikai Liu, Haoliang Qian, Yinhai Li, Hailu Luo, Shuangchun Wen, Zhiyuan Zhou, Guangcan Guo, Baosen Shi^*^, Zhaowei Liu^*^",
+      "title": "Metasurface enabled quantum edge detection",
+      "venue": "Science Advances",
+      "url": "https://www.science.org/doi/full/10.1126/sciadv.abc4385",
+      "citation": "**6**, eabc4385 (2020)",
+      "note": "Highlighted by Phys.org"
+    },
+    {
+      "authors": "**Junxiao Zhou^†^**, Haoliang Qian^†^, Ching-Fu Chen, Junxiang Zhao, Guangru Li, Qianyi Wu, Hailu Luo^*^, Shuangchun Wen, Zhaowei Liu^*^",
+      "title": "Optical edge detection based on high-efficiency dielectric metasurface",
+      "venue": "PNAS",
+      "url": "https://www.pnas.org/doi/abs/10.1073/pnas.1820636116",
+      "citation": "**116**, 11137 (2019)",
+      "note": "ESI Highly Cited Paper"
+    }
+  ],
+  "other": [
+    {
+      "authors": "**Junxiao Zhou**, Fanglin Tian, Jie Hu, Zhixia (Linda) Shi, Veronica G. Godinez, Din-Ping Tsai, Zhaowei Liu^*^",
+      "title": "Eagle-eye inspired meta-device for phase imaging",
+      "venue": "Advanced Materials",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38816897",
+      "citation": "2402751 (2024)"
+    },
+    {
+      "authors": "Qianyi Wu, **Junxiao Zhou^*^**, Junxiang Zhao, Ming Lei, Guanghao Chen, Jin Zhang, Zhaowei Liu^*^",
+      "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
+      "venue": "Optica",
+      "url": "https://opg.optica.org/optica/fulltext.cfm?uri=optica-10-5-619&id=530741",
+      "citation": "**10**, 619-625 (2023)",
+      "note": "**Corresponding author**"
+    },
+    {
+      "authors": "Dingyu Xu, Qianqian Zhang, Zhiwei Liu, Jingcheng Zhang, Qisong Li, **Junxiao Zhou^*^**, Xiewen Wen^*^",
+      "title": "Mosquito-eye inspired hydrophobic metasurface enabled by NIL with sub-100 nm resolution",
+      "venue": "Light: Advanced Manufacturing",
+      "url": "https://doi.org/10.37188/lam.2026.092",
+      "citation": "**7**, 1 (2026)"
+    },
+    {
+      "authors": "Yanliang He, Y. C. Zhu, Haimei Luo, Wen Yuan, Guiqiang Liu, Zhengqi Liu, Xianping Wang, **Junxiao Zhou^*^**",
+      "title": "Optical topological differentiation cryptography",
+      "venue": "Laser & Photonics Reviews",
+      "url": "https://doi.org/10.1002/lpor.202502957",
+      "citation": "**20**, e02957 (2026)"
+    },
+    {
+      "authors": "Chi-Fai Cheung, Xiaotong Zhang, Wenkai Zhao, Bo Wang, **Junxiao Zhou**, Laurence Ho, Din-Ping Tsai",
+      "title": "Multiwave lateral shearing interferometry for wavefront optical characterization of metastructures",
+      "venue": "Nanomanufacturing and Metrology",
+      "url": "https://doi.org/10.1007/s41871-026-00294-z",
+      "citation": "**9** (2026)"
+    },
+    {
+      "authors": "Junyi Wang, Jie Sun, Jian Li, Chunyu Huang, Jitao Ji, Wenjing Shen, Zhizhang Wang, **Junxiao Zhou**, Chen Chen^*^, Shining Zhu, Tao Li^*^",
+      "title": "Plan meta-objective for sub-micron quantitative phase imaging",
+      "venue": "Light: Science & Applications",
+      "url": "https://doi.org/10.1038/s41377-025-02099-z",
+      "citation": "**15**, 71 (2026)"
+    },
+    {
+      "authors": "Tao He, Jingyao Zhang, Din-Ping Tsai, **Junxiao Zhou**, Haiyang Huang, Weicheng Yi, Zeyong Wei, Yan Zu, Qinghua Song, Zhanshan Wang, Cheng-Wei Qiu, Yuzhi Shi, Xinbin Cheng",
+      "title": "A review on optical torques: from engineered light fields to objects",
+      "venue": "Opto-Electronic Science",
+      "url": "https://doi.org/10.29026/oes.2025.250014",
+      "citation": "**4**, 250014 (2025)"
+    },
+    {
+      "authors": "Rong Lin, Jin Yao, Chen Chen, Jiajun Wu, **Junxiao Zhou**, Zhihui Wang, Din-Ping Tsai^*^",
+      "title": "Varifocal meta-lens for multifunctional focusing and imaging",
+      "venue": "Advanced Science",
+      "url": "https://doi.org/10.1002/advs.202514015",
+      "citation": "**12**, e14015 (2025)"
+    },
+    {
+      "authors": "Jialuo Cheng, Zihan Geng, Yin Zhou, Zhendong Luo, Xiaoyuan Liu, Yinuo Xiang, **Junxiao Zhou^*^**, Mu Ku Chen^*^",
+      "title": "Tunable meta-device for large depth of field quantitative phase imaging",
+      "venue": "Nanophotonics",
+      "url": "https://doi.org/10.1515/nanoph-2024-0661",
+      "citation": "**14**, 1249-1256 (2025)"
+    },
+    {
+      "authors": "Xiaodong Qiu, Jingcheng Zhang, Yubin Fan, **Junxiao Zhou**, Lixiang Chen^*^, Din-Ping Tsai^*^",
+      "title": "Metasurface enabled high-order differentiator",
+      "venue": "Nature Communications",
+      "url": "https://doi.org/10.1038/s41467-025-57715-8",
+      "citation": "**16**, 2437 (2025)"
+    },
+    {
+      "authors": "**Junxiao Zhou**, Ang Li, Ming Lei, Jie Hu, Guanghao Chen, Zachary Burns, Fanglin Tian, Xinyu Chen, Yu-Hwa Lo, Din-Ping Tsai, Zhaowei Liu",
+      "title": "Advanced quantitative phase microscopy achieved with spatial multiplexing and a metasurface",
+      "venue": "Nano Letters",
+      "url": "https://doi.org/10.1021/acs.nanolett.4c06039",
+      "citation": "**25**, 2034-2040 (2025)"
+    },
+    {
+      "authors": "**Junxiao Zhou**, Haoliang Qian, Junxiang Zhao, Min Tang, Qianyi Wu, Ming Lei, Hailu Luo, Shuangchun Wen, Shaochen Chen, Zhaowei Liu^*^",
+      "title": "Two-dimensional optical spatial differentiation and high-contrast imaging",
+      "venue": "National Science Review",
+      "url": "https://academic.oup.com/nsr/article/8/6/nwaa176/5881987",
+      "citation": "**8**, nwaa176 (2021)",
+      "note": "Reported by AAAS"
+    },
+    {
+      "authors": "**Junxiao Zhou**, Junxiang Zhao, Qianyi Wu, Ching-Fu Chen, Ming Lei, Guanghao Chen, Fanglin Tian and Zhaowei Liu",
+      "title": "Nonlinear computational edge detection metalens",
+      "venue": "Advanced Functional Materials",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/adfm.202204734",
+      "citation": "**32**, 2204734 (2022)"
+    },
+    {
+      "authors": "**Junxiao Zhou**, Haoliang Qian, Ching-Fu Chen, Li Chen and Zhaowei Liu",
+      "title": "Kerr metasurface enabled by metallic quantum wells",
+      "venue": "Nano Letters",
+      "url": "https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.0c03723",
+      "citation": "**21**, 330 (2020)"
+    },
+    {
+      "authors": "**Junxiao Zhou**, Haoliang Qian, Hailu Luo, Shuangchun Wen and Zhaowei Liu",
+      "title": "A spin-controlled wavefront shaping metasurface with low dispersion in visible frequencies",
+      "venue": "Nanoscale",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2019/nr/c9nr03566d/unauth",
+      "citation": "**11**, 17111 (2019)"
+    },
+    {
+      "authors": "**Junxiao Zhou**, Haoliang Qian, Guangwei Hu, Hailu Luo, Shuangchun Wen and Zhaowei Liu",
+      "title": "Broadband photonic spin Hall meta-lens",
+      "venue": "ACS Nano",
+      "url": "https://pubs.acs.org/doi/abs/10.1021/acsnano.7b07379",
+      "citation": "**12**, 82 (2018)",
+      "note": "Reported by Engineering"
+    },
+    {
+      "authors": "**Junxiao Zhou**, Wenshuai Zhang, Yougang Ke, Yachao Liu, Yuanyuan Liu, Hailu Luo and Shuangchun Wen",
+      "title": "Spin-dependent manipulating of vector beams by tailoring polarization",
+      "venue": "Scientific Reports",
+      "url": "https://www.nature.com/articles/srep34276",
+      "citation": "**6**, 34276 (2016)"
+    },
+    {
+      "authors": "**Junxiao Zhou**, Yachao Liu, Yougang Ke, Hailu Luo and Shuangchun Wen",
+      "title": "Generation of Airy vortex and Airy vector beams based on the modulation of dynamic and geometric phases",
+      "venue": "Optics Letters",
+      "url": "https://www.nature.com/articles/srep44096",
+      "citation": "**40**, 3193 (2015)"
+    },
+    {
+      "authors": "**Junxiao Zhou**, Junxiang Zhao and Zhaowei Liu^*^",
+      "title": "Metasurfaces for multi-functional edge imaging",
+      "venue": "Journal of Physics: Photonics",
+      "url": "https://iopscience.iop.org/journal/2515-7647",
+      "citation": "**6**, 032502 (2024)"
+    },
+    {
+      "authors": "**Junxiao Zhou** and Zhaowei Liu^*^",
+      "title": "Photonic spin dependent wave shaping with metasurfaces: applications in edge detection",
+      "venue": "Plasmonic Materials and Metastructures",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/B9780323853798000083",
+      "citation": "Elsevier, 227-243 (2024)"
+    },
+    {
+      "authors": "Fanglin Tian^†^, **Junxiao Zhou^†^**, Elizabeth Abraham, and Zhaowei Liu^*^",
+      "title": "Tunable dielectric BIC metasurface for high resolution optical filters",
+      "venue": "Journal of Physics D: Applied Physics",
+      "url": "https://iopscience.iop.org/article/10.1088/1361-6463/acb55d/meta",
+      "citation": "**56**, 134002 (2023)",
+      "note": "Invited paper"
+    },
+    {
+      "authors": "Fanglin Tian^†^, **Junxiao Zhou^†^**, Qiang Wang, and Zhaowei Liu^*^",
+      "title": "Tunable topological phase transition in telecommunication wavelength",
+      "venue": "Optical Materials Express",
+      "url": "https://opg.optica.org/ome/fulltext.cfm?uri=ome-13-6-1571&id=530451",
+      "citation": "**13**, 1571 (2023)",
+      "note": ""
+    },
+    {
+      "authors": "Guanghao Chen^†^, **Junxiao Zhou^†^**, Steven Edward Bopp, Junxiang Zhao and Zhaowei Liu^*^",
+      "title": "Visible and near-infrared dual band switchable metasurface edge imaging",
+      "venue": "Optics Letters",
+      "url": "https://opg.optica.org/ol/abstract.cfm?uri=ol-47-16-4040",
+      "citation": "**47**, 4040 (2022)",
+      "note": ""
+    },
+    {
+      "authors": "Guanghao Chen^†^, **Junxiao Zhou^†^**, Li Chen, Fanglin Tian, and Zhaowei Liu^*^",
+      "title": "Infrared color-sorting metasurface",
+      "venue": "Nanoscale",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2024/nr/d4nr01891e",
+      "citation": "**16**, 14490-14497 (2024)",
+      "note": ""
+    },
+    {
+      "authors": "Ching-Fu Chen^†^, Fanglin Tian^†^, **Junxiao Zhou^†^**, Jackson C. Wagner, Wei Xiong, Zhaowei Liu^*^",
+      "title": "Giant optical second- and third-order nonlinearity at telecom wavelength",
+      "venue": "Optics Letters",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38950252/",
+      "citation": "**49** (2024)",
+      "note": ""
+    },
+    {
+      "authors": "Rong Lin, Jin Yao^†^, Zhihui Wang, **Junxiao Zhou**, Din-Ping Tsai^*^",
+      "title": "Resonant meta-lens in the visible",
+      "venue": "Laser & Photonics Reviews",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/lpor.202401740",
+      "citation": "2401740 (2024)"
+    },
+    {
+      "authors": "Yin Zhou, Lin Li, Junhao Zhang, Jialuo Cheng, Xiaoyuan Liu, Yunhui Gao, Zihan Geng, Lei Li^*^, **Junxiao Zhou^*^**, and Mu Ku Chen^*^",
+      "title": "Meta-device for field-of-view tunability via adaptive optical spatial differentiation",
+      "venue": "Advanced Science",
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202412794",
+      "citation": "2412794 (2025)"
+    },
+    {
+      "authors": "Ming Lei, Junxiang Zhao, Ayse Z. Sahan, Jie Hu, **Junxiao Zhou**, Hongki Lee, Qianyi Wu, Jin Zhang, Zhaowei Liu",
+      "title": "Deep learning assisted plasmonic dark-field microscopy for super-resolution label-free imaging",
+      "venue": "Nano Letters",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.nanolett.4c04399",
+      "citation": "**16**, 4703-4709 (2024)"
+    },
+    {
+      "authors": "Wenhong Yang, **Junxiao Zhou**, Din-Ping Tsai^*^, Shumin Xiao^*^",
+      "title": "Advanced manufacturing of dielectric meta-devices",
+      "venue": "Photonics Insights",
+      "url": "https://www.spiedigitallibrary.org/journals/photonics-insights/volume-3/issue-2/R04/Advanced-manufacturing-of-dielectric-meta-devices/10.3788/PI.2024.R04.full#_=_",
+      "citation": "**3**, R04 (2024)"
+    },
+    {
+      "authors": "Guanghao Chen, Zachary Burns, **Junxiao Zhou** and Zhaowei Liu^*^",
+      "title": "Inverse design of metasurface based off-axis image relay",
+      "venue": "Optics Express",
+      "url": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-9-15115&id=548830",
+      "citation": "**32**, 15115 (2024)"
+    },
+    {
+      "authors": "Ming Lei, Junxiang Zhao, **Junxiao Zhou**, Hongki Lee, Qianyi Wu, Guanghao Chen, Zhaowei Liu^*^",
+      "title": "Super resolution label-free dark-field microscopy by deep learning",
+      "venue": "Nanoscale",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2024/nr/d3nr04294d/unauth",
+      "citation": "**16**, 4703-4709 (2024)"
+    },
+    {
+      "authors": "Elizabeth Abraham, **Junxiao Zhou** and Zhaowei Liu",
+      "title": "Speckle structured illumination endoscopy with enhanced resolution at wide field of view and depth of field",
+      "venue": "Opto-Electronic Advances",
+      "url": "https://www.researching.cn/ArticlePdf/m00091/2023/6/7/220163.pdf",
+      "citation": "**6**, 220163 (2023)",
+      "note": "Front cover"
+    },
+    {
+      "authors": "Dingyu Xu, Shanshan He, **Junxiao Zhou**, Shizhen Chen, Shuangchun Wen and Hailu Luo",
+      "title": "Optical analog computing of two-dimensional spatial differentiation based on the Brewster effect",
+      "venue": "Optics Letters",
+      "url": "https://opg.optica.org/ol/abstract.cfm?uri=ol-45-24-6867",
+      "citation": "**45**, 6867 (2020)"
+    },
+    {
+      "authors": "Shanshan He, **Junxiao Zhou**, Shizhen Chen, Weixing Shu, Hailu Luo and Shuangchun Wen",
+      "title": "Wavelength-independent optical fully differential operation based on the spin-orbit interaction of light",
+      "venue": "APL Photonics",
+      "url": "https://pubs.aip.org/aip/app/article/5/3/036105/570333/Wavelength-independent-optical-fully-differential",
+      "citation": "**5**, 036105 (2020)"
+    },
+    {
+      "authors": "Dingyu Xu, Shanshan He, **Junxiao Zhou**, Shizhen Chen, Shuangchun Wen and Hailu Luo",
+      "title": "Goos-Hanchen effect enabled optical differential operation and image edge detection",
+      "venue": "Applied Physics Letters",
+      "url": "https://pubs.aip.org/aip/apl/article-abstract/116/21/211103/38143/Goos-Hanchen-effect-enabled-optical-differential?redirectedFrom=fulltext",
+      "citation": "**116**, 211103 (2020)"
+    },
+    {
+      "authors": "Shanshan He, **Junxiao Zhou**, Shizhen Chen, Weixing Shu, Hailu Luo and Shuangchun Wen",
+      "title": "Spatial differential operation and edge detection based on the geometric spin Hall effect of light",
+      "venue": "Optics Letters",
+      "url": "https://opg.optica.org/abstract.cfm?uri=ol-45-4-877",
+      "citation": "**45**, 877 (2020)"
+    },
+    {
+      "authors": "Ruisi Wang, **Junxiao Zhou**, Kuiming Zeng, Shizhen Chen, Xiaohui Ling, Weixing Shu, Hailu Luo and Shuangchun Wen",
+      "title": "Ultrasensitive and real-time detection of chemical reaction rate based on the photonic spin Hall effect",
+      "venue": "APL Photonics",
+      "url": "https://pubs.aip.org/aip/app/article/5/1/016105/123517",
+      "citation": "**5**, 016105 (2020)"
+    },
+    {
+      "authors": "Yuanyuan Liu, Zhenxing Liu, **Junxiao Zhou**, Xiaohui Ling, Weixing Shu, Hailu Luo and Shuangchun Wen",
+      "title": "Measurements of Pancharatnam-Berry phase in mode transformations on hybrid-order Poincare sphere",
+      "venue": "Optics Letters",
+      "url": "https://opg.optica.org/ol/abstract.cfm?uri=ol-42-17-3447",
+      "citation": "**42**, 3447 (2017)"
+    },
+    {
+      "authors": "Zhenxing Liu, Yuanyuan Liu, Yougang Ke, **Junxiao Zhou**, Yachao Liu, Hailu Luo and Shuangchun Wen",
+      "title": "Geometric phase Doppler effect: when structured light meets rotating structured materials",
+      "venue": "Optics Express",
+      "url": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-25-10-11564&id=366514",
+      "citation": "**25**, 11564 (2017)"
+    },
+    {
+      "authors": "Yachao Liu, Yougang Ke, **Junxiao Zhou**, Yuanyuan Liu, Hailu Luo, Shuangchun Wen and Dianyuan Fan",
+      "title": "Generation of perfect vortex and vector beams based on Pancharatnam-Berry phase elements",
+      "venue": "Scientific Reports",
+      "url": "https://www.nature.com/articles/srep44096",
+      "citation": "**7**, 44096 (2017)"
+    },
+    {
+      "authors": "Yougang Ke, Zhenxing Liu, Yachao Liu, **Junxiao Zhou**, Weixing Shu, Hailu Luo and Shuangchun Wen",
+      "title": "Compact photonic spin filters",
+      "venue": "Applied Physics Letters",
+      "url": "https://pubs.aip.org/aip/apl/article-abstract/109/18/181104/32025/Compact-photonic-spin-filters?redirectedFrom=fulltext",
+      "citation": "**109**, 181104 (2016)"
+    },
+    {
+      "authors": "Yougang Ke, Yachao Liu, **Junxiao Zhou**, Yuanyuan Liu, Hailu Luo and Shuangchun Wen",
+      "title": "Optical integration of Pancharatnam-Berry phase lens and dynamical phase lens",
+      "venue": "Applied Physics Letters",
+      "url": "https://pubs.aip.org/aip/apl/article-abstract/108/10/101102/30136/Optical-integration-of-Pancharatnam-Berry-phase?redirectedFrom=fulltext",
+      "citation": "**108**, 101102 (2016)"
+    },
+    {
+      "authors": "Yougang Ke, Yachao Liu, **Junxiao Zhou**, Yuanyuan Liu, Hailu Luo and Shuangchun Wen",
+      "title": "Photonic spin filter with dielectric metasurfaces",
+      "venue": "Optics Express",
+      "url": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-23-26-33079&id=333699",
+      "citation": "**23**, 33079 (2015)"
+    },
+    {
+      "authors": "Yongli He, Zhenxing Liu, Yachao Liu, **Junxiao Zhou**, Yougang Ke, Hailu Luo and Shuangchun Wen",
+      "title": "Higher-order laser mode converters with dielectric metasurfaces",
+      "venue": "Optics Letters",
+      "url": "https://opg.optica.org/ol/abstract.cfm?uri=ol-40-23-5506",
+      "citation": "**40**, 5506 (2015)"
+    },
+    {
+      "authors": "Yougang Ke, Yachao Liu, Yongli He, **Junxiao Zhou**, Hailu Luo and Shuangchun Wen",
+      "title": "Realization of spin-dependent splitting with arbitrary intensity patterns based on all-dielectric metasurfaces",
+      "venue": "Applied Physics Letters",
+      "url": "https://pubs.aip.org/aip/apl/article-abstract/107/4/041107/30556/Realization-of-spin-dependent-splitting-with?redirectedFrom=fulltext",
+      "citation": "**107**, 041107 (2015)"
+    },
+    {
+      "authors": "Yachao Liu, Yougang Ke, **Junxiao Zhou**, Hailu Luo and Shuangchun Wen",
+      "title": "Manipulating the spin-dependent splitting by geometric Doppler effect",
+      "venue": "Optics Express",
+      "url": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-23-13-16682&id=320436",
+      "citation": "**23**, 16682 (2015)"
+    }
+  ]
+}
