@@ -1,0 +1,44 @@
+{
+  "name": "Junxiao Zhou",
+  "description": "Personal academic homepage of Junxiao Zhou.",
+  "googleSiteVerification": "sVp9Sf3ppZUhR2VS73_Xuc28uxljeyxP8BOnAkQuYj0",
+  "googleAnalyticsId": "G-JZM03P44T9",
+  "heroBackground": "/assets/header-metasurface-bg.jpg",
+  "avatarImage": "assets/avatar.jpg",
+  "links": [
+    {
+      "label": "Email",
+      "url": "mailto:junxiaozhou@nju.edu.cn"
+    },
+    {
+      "label": "NJU Profile",
+      "url": "https://eng.nju.edu.cn/zjx/main.htm"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=XsS_vrgAAAAJ"
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0000-0001-6168-8580"
+    }
+  ],
+  "metrics": [
+    {
+      "label": "Peer-reviewed SCI papers",
+      "value": "40+"
+    },
+    {
+      "label": "First/corresponding author",
+      "value": "20"
+    },
+    {
+      "label": "Citations",
+      "value": "2978"
+    },
+    {
+      "label": "h-index",
+      "value": "24"
+    }
+  ]
+}
