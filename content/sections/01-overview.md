@@ -20,6 +20,6 @@ title: General Information
 
 ### Personal Statement
 
-Dr. Zhou has authored more than **40** peer-reviewed SCI papers, including **20** publications as first author or corresponding author. According to [Google Scholar](https://scholar.google.com/citations?user=XsS_vrgAAAAJ), this body of work has received approximately **3000** citations, with an h-index of **24**.
+Dr. Zhou has authored more than **50** peer-reviewed SCI papers, including **30** publications as first author or corresponding author. According to [Google Scholar](https://scholar.google.com/citations?user=XsS_vrgAAAAJ), this body of work has received approximately **3000** citations, with an h-index of **24**.
 
 Research by Dr. Zhou has appeared in leading journals such as **Nature Reviews Electrical Engineering**, **Nature Communications**, **Physical Review Letters**, **Science Advances**, and **PNAS**. Two publications have been recognized as ESI Highly Cited Papers, and one was selected as a **Physical Review Letters Editors' Suggestion**. Dr. Zhou has also filed two US invention patent applications and delivered invited talks at international conferences. The research has received coverage from media outlets including Phys.org and AAAS.
