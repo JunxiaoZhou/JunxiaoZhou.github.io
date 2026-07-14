@@ -87,6 +87,7 @@ def render_inline(value: str) -> str:
             f'<a href="{url}" target="_blank" rel="noopener noreferrer">{label}</a>'
         )
 
+    value = re.sub(r"<br\s*/?>", lambda _: stash_html("<br>"), value, flags=re.IGNORECASE)
     value = re.sub(r"`([^`]+)`", stash_code, value)
     value = re.sub(r"\[([^\]]+)\]\(([^)\s]+)(?:\s+\"[^\"]+\")?\)", stash_link, value)
     value = html.escape(value)
