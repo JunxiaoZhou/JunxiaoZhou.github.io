@@ -215,15 +215,20 @@ def render_metrics(site: dict, scholar: dict) -> str:
         "Citations": "quote",
         "h-index": "bar-chart",
     }
-    automatic_values = {
-        "Citations": scholar.get("citations", {}).get("all"),
-        "h-index": scholar.get("hIndex", {}).get("all"),
-    }
     items = []
     for metric in metrics:
         metric_icon = metric_icons.get(metric["label"], "bar-chart")
-        automatic_value = automatic_values.get(metric["label"])
-        value = f"{automatic_value:,}" if isinstance(automatic_value, int) else metric["value"]
+        automatic_value = scholar
+        for key in metric.get("scholarField", "").split("."):
+            if not key or not isinstance(automatic_value, dict):
+                automatic_value = None
+                break
+            automatic_value = automatic_value.get(key)
+        value = (
+            f"{automatic_value:,}"
+            if isinstance(automatic_value, int)
+            else metric.get("value", "—")
+        )
         items.append(
             '<div class="metric">'
             f'{icon(metric_icon)}'
@@ -232,6 +237,42 @@ def render_metrics(site: dict, scholar: dict) -> str:
             "</div>"
         )
     return "\n".join(items)
+
+
+def render_structured_data(site: dict) -> str:
+    site_url = site.get("siteUrl", "")
+    same_as = [
+        item["url"]
+        for item in site.get("links", [])
+        if isinstance(item.get("url"), str) and not item["url"].startswith("mailto:")
+    ]
+    person = {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "@id": f"{site_url.rstrip('/')}/#person",
+        "name": site["name"],
+        "alternateName": site.get("alternateName"),
+        "url": site_url,
+        "image": f"{site_url.rstrip('/')}/{site.get('avatarImage', '').lstrip('/')}",
+        "email": next(
+            (
+                item["url"].removeprefix("mailto:")
+                for item in site.get("links", [])
+                if item.get("url", "").startswith("mailto:")
+            ),
+            None,
+        ),
+        "jobTitle": site.get("jobTitle"),
+        "affiliation": {
+            "@type": "Organization",
+            "name": site.get("affiliation", {}).get("name"),
+            "url": site.get("affiliation", {}).get("url"),
+        },
+        "sameAs": same_as,
+        "knowsAbout": site.get("researchInterests", []),
+    }
+    payload = json.dumps(person, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    return f'<script type="application/ld+json">{payload}</script>'
 
 
 def render_links(site: dict) -> str:
@@ -264,7 +305,7 @@ def render_avatar(site: dict) -> str:
     return f'<div class="avatar-frame avatar-placeholder" aria-label="Portrait placeholder">{html.escape(initials)}</div>'
 
 
-def render_sections(sections: list[Section]) -> str:
+def render_sections(sections: list[Section], scholar: dict) -> str:
     rendered = []
     section_icons = {
         "General Information": "user-round",
@@ -274,7 +315,7 @@ def render_sections(sections: list[Section]) -> str:
         eyebrow = f'<p class="eyebrow">{html.escape(section.eyebrow)}</p>' if section.eyebrow else ""
         section_icon = section_icons.get(section.title, "book-open")
         section_html = (
-            render_publications()
+            render_publications(scholar)
             if section.title == "Publications" and PUBLICATIONS_FILE.exists()
             else section.html
         )
@@ -293,13 +334,38 @@ def render_sections(sections: list[Section]) -> str:
     return "\n\n".join(rendered)
 
 
-def render_publication_item(item: dict, index: int) -> str:
+def normalize_publication_title(value: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "", value.lower())
+
+
+def publication_year(item: dict) -> int | None:
+    years = re.findall(r"\((?:19|20)\d{2}\)", item.get("citation", ""))
+    return int(years[-1][1:-1]) if years else None
+
+
+def render_publication_citation(value: str) -> str:
+    return render_inline(re.sub(r"(?<=\d)-(?=\d)", "–", value))
+
+
+def render_publication_item(
+    item: dict,
+    index: int,
+    scholar_articles: dict[str, dict],
+    show_citations: bool,
+) -> str:
     note = item.get("note", "")
     note_html = (
         f'<span class="publication-note">{render_inline(note)}</span>'
         if note
         else ""
     )
+    citation_html = ""
+    if show_citations:
+        scholar_article = scholar_articles.get(normalize_publication_title(item["title"]))
+        if scholar_article:
+            cited_by = scholar_article.get("citedBy")
+            if isinstance(cited_by, int) and cited_by > 0:
+                citation_html = f'<span class="publication-citations">Cited by {cited_by:,}</span>'
     return (
         '<li class="publication-item">'
         f'<span class="publication-number">{index}</span>'
@@ -307,25 +373,66 @@ def render_publication_item(item: dict, index: int) -> str:
         f'<a class="publication-title" href="{html.escape(item["url"], quote=True)}" target="_blank" rel="noopener noreferrer">{render_inline(item["title"])}</a>'
         f'<div class="publication-authors">{render_inline(item["authors"])}</div>'
         '<div class="publication-meta">'
+        '<div class="publication-details">'
         f'<a class="publication-venue" href="{html.escape(item["url"], quote=True)}" target="_blank" rel="noopener noreferrer">{render_inline(item["venue"])}</a>'
-        f'<span>{render_inline(item["citation"])}</span>'
+        f'<span>{render_publication_citation(item["citation"])}</span>'
         f'{note_html}'
+        f'{citation_html}'
+        '</div>'
         '</div>'
         '</div>'
         '</li>'
     )
 
 
-def render_publication_group(title: str, items: list[dict], start: int) -> tuple[str, int]:
+def render_publication_group(
+    title: str,
+    items: list[dict],
+    start: int,
+    scholar_articles: dict[str, dict],
+    group_by_year: bool = False,
+) -> tuple[str, int]:
+    group_slug = slugify(title)
+    heading = f'<h3 id="{group_slug}" class="publication-group-heading publication-group-heading--{group_slug}">{html.escape(title)}</h3>'
+    if group_by_year:
+        grouped: dict[int | None, list[dict]] = {}
+        for item in items:
+            grouped.setdefault(publication_year(item), []).append(item)
+        rendered_groups = []
+        number = start
+        for year in sorted(grouped, key=lambda value: value or 0, reverse=True):
+            year_items = grouped[year]
+            rendered_items = []
+            group_start = number
+            for item in year_items:
+                rendered_items.append(
+                    render_publication_item(item, number, scholar_articles, show_citations=False)
+                )
+                number += 1
+            year_label = str(year) if year else "Earlier"
+            rendered_groups.append(
+                f'<h4 class="publication-year-heading">{year_label}</h4>\n'
+                f'<ol class="publication-list publication-list--{group_slug}" start="{group_start}">\n'
+                + "\n".join(rendered_items)
+                + "\n</ol>"
+            )
+        return f'{heading}\n' + "\n".join(rendered_groups), number
+
     rendered_items = []
     number = start
-    group_slug = slugify(title)
     for item in items:
-        rendered_items.append(render_publication_item(item, number))
+        rendered_items.append(
+            render_publication_item(
+                item,
+                number,
+                scholar_articles,
+                show_citations=title == "Selected Publications",
+            )
+        )
         number += 1
 
     return (
-        f'<h3 id="{group_slug}" class="publication-group-heading publication-group-heading--{group_slug}">{html.escape(title)}</h3>\n'
+        f'{heading}\n'
         f'<ol class="publication-list publication-list--{group_slug}" start="{start}">\n'
         + "\n".join(rendered_items)
         + "\n</ol>",
@@ -333,13 +440,25 @@ def render_publication_group(title: str, items: list[dict], start: int) -> tuple
     )
 
 
-def render_publications() -> str:
+def render_publications(scholar: dict) -> str:
     publications = json.loads(PUBLICATIONS_FILE.read_text(encoding="utf-8"))
+    scholar_articles: dict[str, dict] = {}
+    for article in scholar.get("articles", []):
+        if not isinstance(article, dict) or not isinstance(article.get("title"), str):
+            continue
+        key = normalize_publication_title(article["title"])
+        existing = scholar_articles.get(key)
+        if existing is None or article.get("citedBy", 0) > existing.get("citedBy", 0):
+            scholar_articles[key] = article
     selected_html, next_number = render_publication_group(
-        "Selected Publications", publications.get("selected", []), 1
+        "Selected Publications", publications.get("selected", []), 1, scholar_articles
     )
     other_html, _ = render_publication_group(
-        "Other Publications", publications.get("other", []), next_number
+        "Other Publications",
+        publications.get("other", []),
+        next_number,
+        scholar_articles,
+        group_by_year=True,
     )
     return f"{selected_html}\n{other_html}"
 
@@ -365,6 +484,7 @@ def render_page(site: dict, sections: list[Section], scholar: dict) -> str:
         else ""
     )
     research_visual = html.escape(site.get("heroBackground", ""), quote=True)
+    site_url = html.escape(site.get("siteUrl", ""), quote=True)
 
     return f"""<!doctype html>
 <html lang="en">
@@ -374,8 +494,10 @@ def render_page(site: dict, sections: list[Section], scholar: dict) -> str:
   {verification_tag}
   <title>{html.escape(site["name"])}</title>
   <meta name="description" content="{html.escape(site.get("description", ""), quote=True)}">
+  <link rel="canonical" href="{site_url}">
   <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="assets/site.css">
+  {render_structured_data(site)}
 </head>
 <body>
   <main id="top" class="page">
@@ -398,7 +520,7 @@ def render_page(site: dict, sections: list[Section], scholar: dict) -> str:
       {render_metrics(site, scholar)}
     </section>
 
-    {render_sections(sections)}
+    {render_sections(sections, scholar)}
   </main>
 
   <footer class="site-footer">

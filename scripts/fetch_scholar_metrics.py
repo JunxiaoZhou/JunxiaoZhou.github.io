@@ -10,7 +10,6 @@ import sys
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
 from pathlib import Path
 
 
@@ -65,18 +64,11 @@ def fetch_response(author_id: str, api_key: str) -> dict:
         raise ScholarDataError(f"SerpApi request failed: {error}") from error
 
 
-def metric_pair(table: list[dict], name: str) -> tuple[int, int | None, int | None]:
+def metric_value(table: list[dict], name: str) -> int:
     payload = next((row[name] for row in table if name in row), None)
     if not isinstance(payload, dict) or not isinstance(payload.get("all"), int):
         raise ScholarDataError(f"Missing cited_by.table metric: {name}")
-
-    recent_key = next((key for key in payload if key.startswith("since_")), None)
-    recent_value = payload.get(recent_key) if recent_key else None
-    if recent_value is not None and not isinstance(recent_value, int):
-        raise ScholarDataError(f"Invalid recent value for metric: {name}")
-
-    recent_since = int(recent_key.removeprefix("since_")) if recent_key else None
-    return payload["all"], recent_value, recent_since
+    return payload["all"]
 
 
 def normalize(raw: dict, expected_author_id: str) -> dict:
@@ -95,44 +87,39 @@ def normalize(raw: dict, expected_author_id: str) -> dict:
         raise ScholarDataError("Missing cited_by data")
 
     table = cited_by.get("table")
-    graph = cited_by.get("graph")
-    if not isinstance(table, list) or not isinstance(graph, list):
-        raise ScholarDataError("Missing cited_by table or graph")
+    if not isinstance(table, list):
+        raise ScholarDataError("Missing cited_by table")
 
-    citations_all, citations_recent, recent_since = metric_pair(
-        table, "citations"
-    )
-    h_all, h_recent, h_since = metric_pair(table, "h_index")
-    i10_all, i10_recent, i10_since = metric_pair(table, "i10_index")
-    recent_years = {year for year in (recent_since, h_since, i10_since) if year}
-    if len(recent_years) > 1:
-        raise ScholarDataError("Recent metric periods do not match")
-
-    by_year = []
-    for point in graph:
-        year = point.get("year")
-        citations = point.get("citations")
-        if not isinstance(year, int) or not isinstance(citations, int):
-            raise ScholarDataError("Invalid point in cited_by graph")
-        by_year.append({"year": year, "citations": citations})
-    by_year.sort(key=lambda point: point["year"])
+    citations_all = metric_value(table, "citations")
+    h_all = metric_value(table, "h_index")
 
     articles = raw.get("articles", [])
     if not isinstance(articles, list):
         raise ScholarDataError("Invalid articles data")
 
+    normalized_articles = []
+    for article in articles:
+        title = article.get("title")
+        cited_by = article.get("cited_by") or {}
+        cited_by_value = cited_by.get("value")
+        if cited_by_value is None:
+            cited_by_value = 0
+        if not isinstance(title, str):
+            continue
+        if not isinstance(cited_by_value, int):
+            raise ScholarDataError(f"Invalid citation count for article: {title}")
+        normalized_articles.append(
+            {
+                "title": title,
+                "citedBy": cited_by_value,
+            }
+        )
+
     return {
         "authorId": expected_author_id,
-        "authorName": raw.get("author", {}).get("name", "Junxiao Zhou"),
-        "updatedAt": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace(
-            "+00:00", "Z"
-        ),
-        "recentSince": next(iter(recent_years), None),
-        "citations": {"all": citations_all, "recent": citations_recent},
-        "hIndex": {"all": h_all, "recent": h_recent},
-        "i10Index": {"all": i10_all, "recent": i10_recent},
-        "byYear": by_year,
-        "articleCount": len(articles),
+        "citations": {"all": citations_all},
+        "hIndex": {"all": h_all},
+        "articles": normalized_articles,
     }
 
 

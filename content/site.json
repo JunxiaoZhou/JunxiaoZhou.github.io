@@ -1,6 +1,22 @@
 {
   "name": "Junxiao Zhou",
+  "alternateName": "周军晓",
   "description": "Personal academic homepage of Junxiao Zhou.",
+  "siteUrl": "https://junxiaozhou.github.io/",
+  "jobTitle": "Tenure-track Associate Professor",
+  "affiliation": {
+    "name": "Nanjing University",
+    "url": "https://www.nju.edu.cn/en/"
+  },
+  "researchInterests": [
+    "Nanophotonics",
+    "Metasurfaces",
+    "Optical imaging",
+    "Edge imaging",
+    "Quantitative phase imaging",
+    "Spin-orbit interactions of light",
+    "Nonlinear optics"
+  ],
   "googleSiteVerification": "sVp9Sf3ppZUhR2VS73_Xuc28uxljeyxP8BOnAkQuYj0",
   "googleAnalyticsId": "G-JZM03P44T9",
   "heroBackground": "/assets/header-metasurface-bg.jpg",
@@ -34,11 +50,11 @@
     },
     {
       "label": "Citations",
-      "value": "2978"
+      "scholarField": "citations.all"
     },
     {
       "label": "h-index",
-      "value": "24"
+      "scholarField": "hIndex.all"
     }
   ]
 }

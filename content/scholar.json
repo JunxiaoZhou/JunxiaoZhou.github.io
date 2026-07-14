@@ -1,65 +1,243 @@
 {
   "authorId": "XsS_vrgAAAAJ",
-  "authorName": "Junxiao Zhou(周军晓)",
-  "updatedAt": "2026-07-14T03:20:22Z",
-  "recentSince": 2021,
   "citations": {
-    "all": 2986,
-    "recent": 2548
+    "all": 2986
   },
   "hIndex": {
-    "all": 24,
-    "recent": 21
+    "all": 24
   },
-  "i10Index": {
-    "all": 37,
-    "recent": 35
-  },
-  "byYear": [
+  "articles": [
     {
-      "year": 2016,
-      "citations": 34
+      "title": "Optical edge detection based on high-efficiency dielectric metasurface",
+      "citedBy": 449
     },
     {
-      "year": 2017,
-      "citations": 62
+      "title": "Generation of perfect vortex and vector beams based on Pancharatnam-Berry phase elements",
+      "citedBy": 261
     },
     {
-      "year": 2018,
-      "citations": 77
+      "title": "Metasurface enabled quantum edge detection",
+      "citedBy": 250
     },
     {
-      "year": 2019,
-      "citations": 101
+      "title": "Two-dimensional optical spatial differentiation and high-contrast imaging",
+      "citedBy": 190
     },
     {
-      "year": 2020,
-      "citations": 150
+      "title": "Ultrasensitive and real-time detection of chemical reaction rate based on the photonic spin Hall effect",
+      "citedBy": 148
     },
     {
-      "year": 2021,
-      "citations": 253
+      "title": "Spatial differential operation and edge detection based on the geometric spin Hall effect of light",
+      "citedBy": 144
     },
     {
-      "year": 2022,
-      "citations": 393
+      "title": "Broadband photonic spin Hall meta-lens",
+      "citedBy": 129
     },
     {
-      "year": 2023,
-      "citations": 361
+      "title": "Generation of Airy vortex and Airy vector beams based on the modulation of dynamic and geometric phases",
+      "citedBy": 123
     },
     {
-      "year": 2024,
-      "citations": 450
+      "title": "Roadmap on electromagnetic metamaterials and metasurfaces",
+      "citedBy": 106
     },
     {
-      "year": 2025,
-      "citations": 634
+      "title": "Goos–Hänchen effect enabled optical differential operation and image edge detection",
+      "citedBy": 106
     },
     {
-      "year": 2026,
-      "citations": 454
+      "title": "Wavelength-independent optical fully differential operation based on the spin–orbit interaction of light",
+      "citedBy": 99
+    },
+    {
+      "title": "Advanced Manufacturing of Dielectric Meta-devices",
+      "citedBy": 83
+    },
+    {
+      "title": "Fourier optical spin splitting microscopy",
+      "citedBy": 82
+    },
+    {
+      "title": "Optical analog computing of two-dimensional spatial differentiation based on the Brewster effect",
+      "citedBy": 82
+    },
+    {
+      "title": "Nonlinear computational edge detection metalens",
+      "citedBy": 76
+    },
+    {
+      "title": "Optical integration of Pancharatnam-Berry phase lens and dynamical phase lens",
+      "citedBy": 62
+    },
+    {
+      "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
+      "citedBy": 59
+    },
+    {
+      "title": "Metasurface enabled high-order differentiator",
+      "citedBy": 57
+    },
+    {
+      "title": "Higher-order laser mode converters with dielectric metasurfaces",
+      "citedBy": 52
+    },
+    {
+      "title": "Measurements of Pancharatnam–Berry phase in mode transformations on hybrid-order Poincaré sphere",
+      "citedBy": 36
+    },
+    {
+      "title": "Spin-dependent manipulating of vector beams by tailoring polarization",
+      "citedBy": 32
+    },
+    {
+      "title": "Realization of spin-dependent splitting with arbitrary intensity patterns based on all-dielectric metasurfaces",
+      "citedBy": 31
+    },
+    {
+      "title": "Eagle‐Eye Inspired Meta‐Device for Phase Imaging",
+      "citedBy": 27
+    },
+    {
+      "title": "A spin controlled wavefront shaping metasurface with low dispersion in visible frequencies",
+      "citedBy": 25
+    },
+    {
+      "title": "Visible and near-infrared dual band switchable metasurface edge imaging",
+      "citedBy": 23
+    },
+    {
+      "title": "Super resolution label-free dark-field microscopy by deep learning",
+      "citedBy": 22
+    },
+    {
+      "title": "Geometric phase Doppler effect: when structured light meets rotating structured materials",
+      "citedBy": 21
+    },
+    {
+      "title": "A review on optical torques: from engineered light fields to objects",
+      "citedBy": 19
+    },
+    {
+      "title": "Speckle structured illumination endoscopy with enhanced resolution at wide field of view and depth of field",
+      "citedBy": 19
+    },
+    {
+      "title": "Kerr metasurface enabled by metallic quantum wells",
+      "citedBy": 19
+    },
+    {
+      "title": "Tunable meta-device for large depth of field quantitative phase imaging",
+      "citedBy": 17
+    },
+    {
+      "title": "Photonic spin filter with dielectric metasurfaces",
+      "citedBy": 17
+    },
+    {
+      "title": "Manipulating the spin-dependent splitting by geometric Doppler effect",
+      "citedBy": 17
+    },
+    {
+      "title": "Meta-Device for Field-of-View Tunability via Adaptive Optical Spatial Differentiation",
+      "citedBy": 16
+    },
+    {
+      "title": "Deep Learning Assisted Plasmonic Dark-Field Microscopy for Super-Resolution Label-Free Imaging",
+      "citedBy": 13
+    },
+    {
+      "title": "Tunable dielectric BIC metasurface for high resolution optical filters",
+      "citedBy": 13
+    },
+    {
+      "title": "Advanced Quantitative Phase Microscopy Achieved with Spatial Multiplexing and a Metasurface",
+      "citedBy": 11
+    },
+    {
+      "title": "Compact photonic spin filters",
+      "citedBy": 9
+    },
+    {
+      "title": "Varifocal Meta‐Lens for Multifunctional Focusing and Imaging",
+      "citedBy": 8
+    },
+    {
+      "title": "Resonant Meta‐Lens in the Visible",
+      "citedBy": 6
+    },
+    {
+      "title": "Tunable topological phase transition in the telecommunication wavelength",
+      "citedBy": 6
+    },
+    {
+      "title": "Plan meta-objective for sub-micron quantitative phase imaging",
+      "citedBy": 3
+    },
+    {
+      "title": "Infrared Color-Sorting Metasurface",
+      "citedBy": 3
+    },
+    {
+      "title": "Photonic spin-dependent wave shaping with metasurfaces: applications in edge detection",
+      "citedBy": 3
+    },
+    {
+      "title": "Spin-photonic devices based on optical integration of Pancharatnam-Berry phase elements",
+      "citedBy": 3
+    },
+    {
+      "title": "Challenges and opportunities of metalenses",
+      "citedBy": 2
+    },
+    {
+      "title": "Giant optical second- and third- order nonlinearity at telecom wavelength",
+      "citedBy": 2
+    },
+    {
+      "title": "Inverse design of metasurface based off-axis image relay",
+      "citedBy": 2
+    },
+    {
+      "title": "Broadband optical fully differential operation based on the spin-orbit interaction of light",
+      "citedBy": 2
+    },
+    {
+      "title": "Spin-orbit interaction of light on the surface of atomically thin crystals",
+      "citedBy": 1
+    },
+    {
+      "title": "Varifocal Alvarez metalens array for adaptive light-field imaging",
+      "citedBy": 0
+    },
+    {
+      "title": "Multiwave Lateral Shearing Interferometry for Wavefront Optical Characterization of Metastructures",
+      "citedBy": 0
+    },
+    {
+      "title": "Optical Topological Differentiation Cryptography",
+      "citedBy": 0
+    },
+    {
+      "title": "Super resolution label-free imaging by deep learning assisted plasmonic dark-field microscopy",
+      "citedBy": 0
+    },
+    {
+      "title": "Dielectric-metasurface-enabled edge detection and quantitative phase imaging",
+      "citedBy": 0
+    },
+    {
+      "title": "Realization of the spin-dependent manipulation of structured light by tailoring the polarization",
+      "citedBy": 0
+    },
+    {
+      "title": "Varifocal Alvarez metalens array for adaptive light-field imaging",
+      "citedBy": 0
+    },
+    {
+      "title": "Varifocal Alvarez metalens array for adaptive light-field imaging",
+      "citedBy": 0
     }
-  ],
-  "articleCount": 58
+  ]
 }

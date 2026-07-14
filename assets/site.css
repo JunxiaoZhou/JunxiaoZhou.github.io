@@ -470,6 +470,18 @@ h1 {
   color: var(--text-strong);
 }
 
+#publications .publication-year-heading {
+  margin: 18px 0 0;
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 750;
+  letter-spacing: 0.06em;
+}
+
+#publications .publication-group-heading--other-publications + .publication-year-heading {
+  margin-top: 12px;
+}
+
 #publications .publication-list--other-publications {
   margin-top: 7px;
 }
@@ -544,14 +556,29 @@ h1 {
 }
 
 .publication-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px 10px;
-  align-items: baseline;
   margin-top: 5px;
   color: var(--muted);
   font-size: 0.84rem;
   line-height: 1.45;
+}
+
+.publication-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  align-items: baseline;
+  min-width: 0;
+}
+
+#publications .publication-list--selected-publications .publication-details {
+  column-gap: 5px;
+}
+
+#publications .publication-list--selected-publications .publication-details > :nth-child(n + 3)::before {
+  content: "·";
+  margin-right: 5px;
+  color: var(--line-strong);
+  font-weight: 400;
 }
 
 .publication-venue {
@@ -572,6 +599,13 @@ h1 {
 .publication-note strong {
   color: inherit;
   font-weight: 700;
+}
+
+.publication-citations {
+  color: #778281;
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
 }
 
 .site-footer {
@@ -646,6 +680,11 @@ h1 {
 
   .metrics {
     grid-template-columns: 1fr;
+  }
+
+  #publications .publication-list--selected-publications .publication-details > :nth-child(n + 3)::before {
+    content: none;
+    margin-right: 0;
   }
 
   #work-and-study-experience + ul li,

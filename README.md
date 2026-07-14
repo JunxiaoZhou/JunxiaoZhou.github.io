@@ -11,7 +11,7 @@ This repository builds a static GitHub Pages homepage from Markdown content.
 - The hero background is controlled by `heroBackground` in `content/site.json`.
 - Hero background paths should start with `/assets/`, for example `/assets/header-metasurface-bg.jpg`.
 - To add a portrait, place the image at `assets/avatar.jpg` and run `make build`.
-- Research metric cards are manually configured in the `metrics` array in `content/site.json`.
+- Research metric cards are configured in the `metrics` array in `content/site.json`. Static cards use `value`; Scholar-backed cards use `scholarField`.
 
 Example module:
 
@@ -40,6 +40,8 @@ This regenerates `index.html`, which is the file served by GitHub Pages. You can
 
 Google Scholar metrics are normalized in `content/scholar.json`. The generated homepage uses this file for the citation and h-index cards. Publication content remains managed separately in `content/publications.json`.
 
+The same Scholar response stores normalized article citation data. During the build, selected publications are matched by normalized title and display `Cited by N` when the count is greater than zero. Other publications remain unchanged apart from year grouping.
+
 The Personal Statement can reuse the same values with `{{ scholar_citations }}` and `{{ scholar_h_index }}` placeholders, keeping its prose synchronized with the metric cards during each build.
 
 To refresh Scholar data locally, set the SerpApi key in the environment and run:
@@ -57,6 +59,8 @@ If the request fails or SerpApi returns incomplete data, the fetch script exits 
 ## Publication Format
 
 Publications are maintained in `content/publications.json`. Each item is rendered as a structured publication entry with title, authors, venue, citation details, and an optional note.
+
+Other publications are automatically grouped by the year in the trailing `(YYYY)` portion of each `citation` field. Numeric page ranges are rendered with an en dash.
 
 Markdown syntax can still be used inside text fields for bold author names and italic notes. Wrap contribution symbols in carets so they render as superscripts: `^†^` for equal contribution and `^*^` for corresponding author.
 
