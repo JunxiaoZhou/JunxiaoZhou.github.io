@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CONTENT_DIR = ROOT / "content" / "sections"
 SITE_FILE = ROOT / "content" / "site.json"
 PUBLICATIONS_FILE = ROOT / "content" / "publications.json"
+SCHOLAR_FILE = ROOT / "content" / "scholar.json"
 OUTPUT_FILE = ROOT / "index.html"
 
 
@@ -163,13 +164,25 @@ def render_markdown(markdown: str) -> str:
     return "\n".join(output)
 
 
-def load_sections() -> list[Section]:
+def hydrate_dynamic_content(markdown: str, scholar: dict) -> str:
+    values = {
+        "{{ scholar_citations }}": scholar.get("citations", {}).get("all"),
+        "{{ scholar_h_index }}": scholar.get("hIndex", {}).get("all"),
+    }
+    for placeholder, value in values.items():
+        if isinstance(value, int):
+            markdown = markdown.replace(placeholder, f"{value:,}")
+    return markdown
+
+
+def load_sections(scholar: dict) -> list[Section]:
     sections: list[Section] = []
 
     for path in sorted(CONTENT_DIR.glob("*.md")):
         meta, body = parse_frontmatter(path.read_text(encoding="utf-8"))
         if meta.get("draft", "").lower() == "true":
             continue
+        body = hydrate_dynamic_content(body, scholar)
 
         title = meta.get("title") or path.stem
         sections.append(
@@ -184,7 +197,17 @@ def load_sections() -> list[Section]:
     return sections
 
 
-def render_metrics(site: dict) -> str:
+def load_scholar() -> dict:
+    if not SCHOLAR_FILE.exists():
+        return {}
+    try:
+        data = json.loads(SCHOLAR_FILE.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    return data if isinstance(data, dict) else {}
+
+
+def render_metrics(site: dict, scholar: dict) -> str:
     metrics = site.get("metrics", [])
     metric_icons = {
         "Peer-reviewed SCI papers": "file-text",
@@ -192,13 +215,19 @@ def render_metrics(site: dict) -> str:
         "Citations": "quote",
         "h-index": "bar-chart",
     }
+    automatic_values = {
+        "Citations": scholar.get("citations", {}).get("all"),
+        "h-index": scholar.get("hIndex", {}).get("all"),
+    }
     items = []
     for metric in metrics:
         metric_icon = metric_icons.get(metric["label"], "bar-chart")
+        automatic_value = automatic_values.get(metric["label"])
+        value = f"{automatic_value:,}" if isinstance(automatic_value, int) else metric["value"]
         items.append(
             '<div class="metric">'
             f'{icon(metric_icon)}'
-            f'<span><span class="metric-value">{html.escape(metric["value"])}</span>'
+            f'<span><span class="metric-value">{html.escape(value)}</span>'
             f'<span class="metric-label">{html.escape(metric["label"])}</span></span>'
             "</div>"
         )
@@ -315,7 +344,7 @@ def render_publications() -> str:
     return f"{selected_html}\n{other_html}"
 
 
-def render_page(site: dict, sections: list[Section]) -> str:
+def render_page(site: dict, sections: list[Section], scholar: dict) -> str:
     analytics_id = site.get("googleAnalyticsId", "")
     analytics = ""
     if analytics_id:
@@ -366,7 +395,7 @@ def render_page(site: dict, sections: list[Section]) -> str:
     </header>
 
     <section class="metrics" aria-label="Research metrics">
-      {render_metrics(site)}
+      {render_metrics(site, scholar)}
     </section>
 
     {render_sections(sections)}
@@ -385,8 +414,9 @@ def render_page(site: dict, sections: list[Section]) -> str:
 
 def main() -> None:
     site = json.loads(SITE_FILE.read_text(encoding="utf-8"))
-    sections = load_sections()
-    OUTPUT_FILE.write_text(render_page(site, sections), encoding="utf-8")
+    scholar = load_scholar()
+    sections = load_sections(scholar)
+    OUTPUT_FILE.write_text(render_page(site, sections, scholar), encoding="utf-8")
     print(f"Built {OUTPUT_FILE.relative_to(ROOT)} from {len(sections)} section(s).")
 
 

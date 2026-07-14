@@ -36,6 +36,24 @@ make build
 
 This regenerates `index.html`, which is the file served by GitHub Pages. You can also run `python3 scripts/build.py` directly.
 
+## Google Scholar Metrics
+
+Google Scholar metrics are normalized in `content/scholar.json`. The generated homepage uses this file for the citation and h-index cards. Publication content remains managed separately in `content/publications.json`.
+
+The Personal Statement can reuse the same values with `{{ scholar_citations }}` and `{{ scholar_h_index }}` placeholders, keeping its prose synchronized with the metric cards during each build.
+
+To refresh Scholar data locally, set the SerpApi key in the environment and run:
+
+```bash
+export SERPAPI_API_KEY="your-key"
+make scholar
+make build
+```
+
+The API key must not be committed to the repository. For the daily GitHub Actions refresh, add it as a repository Actions secret named `SERPAPI_API_KEY`. The workflow can also be started manually from the Actions tab.
+
+If the request fails or SerpApi returns incomplete data, the fetch script exits without replacing the last valid `content/scholar.json` file.
+
 ## Publication Format
 
 Publications are maintained in `content/publications.json`. Each item is rendered as a structured publication entry with title, authors, venue, citation details, and an optional note.

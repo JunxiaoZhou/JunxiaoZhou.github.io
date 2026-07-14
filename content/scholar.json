@@ -1,0 +1,65 @@
+{
+  "authorId": "XsS_vrgAAAAJ",
+  "authorName": "Junxiao Zhou(周军晓)",
+  "updatedAt": "2026-07-14T02:46:06Z",
+  "recentSince": 2021,
+  "citations": {
+    "all": 2986,
+    "recent": 2548
+  },
+  "hIndex": {
+    "all": 24,
+    "recent": 21
+  },
+  "i10Index": {
+    "all": 37,
+    "recent": 35
+  },
+  "byYear": [
+    {
+      "year": 2016,
+      "citations": 34
+    },
+    {
+      "year": 2017,
+      "citations": 62
+    },
+    {
+      "year": 2018,
+      "citations": 77
+    },
+    {
+      "year": 2019,
+      "citations": 101
+    },
+    {
+      "year": 2020,
+      "citations": 150
+    },
+    {
+      "year": 2021,
+      "citations": 253
+    },
+    {
+      "year": 2022,
+      "citations": 393
+    },
+    {
+      "year": 2023,
+      "citations": 361
+    },
+    {
+      "year": 2024,
+      "citations": 450
+    },
+    {
+      "year": 2025,
+      "citations": 634
+    },
+    {
+      "year": 2026,
+      "citations": 454
+    }
+  ],
+  "articleCount": 58
+}
