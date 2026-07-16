@@ -1,4 +1,4 @@
-name: Update Scholar metrics and deploy Pages
+name: Update publication data, Scholar metrics, and deploy Pages
 
 on:
   push:
@@ -34,6 +34,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Complete publication metadata
+        run: python3 scripts/fetch_publication_metadata.py
+
       - name: Fetch Google Scholar metrics
         env:
           SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
@@ -42,15 +45,15 @@ jobs:
       - name: Build static homepage
         run: python3 scripts/build.py
 
-      - name: Commit updated metrics
+      - name: Commit updated data
         run: |
-          if git diff --quiet -- content/scholar.json index.html; then
-            echo "Scholar metrics are unchanged."
+          if git diff --quiet -- content/publications.json content/scholar.json index.html; then
+            echo "Publication and Scholar data are unchanged."
           else
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add content/scholar.json index.html
-            git commit -m "Update Google Scholar metrics"
+            git add content/publications.json content/scholar.json index.html
+            git commit -m "Update publication and Scholar data"
             git push
           fi
 

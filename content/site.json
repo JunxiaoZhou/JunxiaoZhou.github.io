@@ -42,11 +42,11 @@
   "metrics": [
     {
       "label": "Peer-reviewed SCI papers",
-      "value": "50+"
+      "publicationField": "total"
     },
     {
       "label": "First/corresponding author",
-      "value": "30"
+      "publicationField": "firstOrCorresponding"
     },
     {
       "label": "Citations",

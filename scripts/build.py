@@ -14,6 +14,7 @@ SITE_FILE = ROOT / "content" / "site.json"
 PUBLICATIONS_FILE = ROOT / "content" / "publications.json"
 SCHOLAR_FILE = ROOT / "content" / "scholar.json"
 OUTPUT_FILE = ROOT / "index.html"
+PRIMARY_AUTHOR_NAME = "Junxiao Zhou"
 
 
 @dataclass
@@ -165,10 +166,64 @@ def render_markdown(markdown: str) -> str:
     return "\n".join(output)
 
 
-def hydrate_dynamic_content(markdown: str, scholar: dict) -> str:
+def publication_items(publications: dict) -> list[dict]:
+    items: list[dict] = []
+    for group in ("selected", "other"):
+        group_items = publications.get(group, [])
+        if isinstance(group_items, list):
+            items.extend(item for item in group_items if isinstance(item, dict))
+    return items
+
+
+def plain_author_name(value: str) -> str:
+    value = re.sub(r"\^[*†‡]+\^", "", value)
+    value = value.replace("**", "")
+    return re.sub(r"\s+", " ", value).strip(" ,")
+
+
+def is_primary_first_or_corresponding(item: dict) -> bool:
+    authors = item.get("authors", "")
+    if not isinstance(authors, str) or not authors.strip():
+        return False
+
+    first_author = re.split(r",|\s+and\s+", authors, maxsplit=1)[0]
+    if plain_author_name(first_author) == PRIMARY_AUTHOR_NAME:
+        return True
+
+    marked_primary = re.search(
+        rf"\*\*{re.escape(PRIMARY_AUTHOR_NAME)}(?:(?!\*\*).)*\^(?:†|\*)\^",
+        authors,
+    )
+    return marked_primary is not None
+
+
+def calculate_publication_stats(publications: dict) -> dict[str, int]:
+    items = publication_items(publications)
+    return {
+        "total": len(items),
+        "firstOrCorresponding": sum(
+            is_primary_first_or_corresponding(item) for item in items
+        ),
+    }
+
+
+def load_publications() -> dict:
+    data = json.loads(PUBLICATIONS_FILE.read_text(encoding="utf-8"))
+    if not isinstance(data, dict):
+        raise ValueError(f"{PUBLICATIONS_FILE.name} must contain a JSON object")
+    return data
+
+
+def hydrate_dynamic_content(
+    markdown: str, scholar: dict, publication_stats: dict[str, int]
+) -> str:
     values = {
         "{{ scholar_citations }}": scholar.get("citations", {}).get("all"),
         "{{ scholar_h_index }}": scholar.get("hIndex", {}).get("all"),
+        "{{ publication_count }}": publication_stats.get("total"),
+        "{{ first_or_corresponding_count }}": publication_stats.get(
+            "firstOrCorresponding"
+        ),
     }
     for placeholder, value in values.items():
         if isinstance(value, int):
@@ -176,14 +231,16 @@ def hydrate_dynamic_content(markdown: str, scholar: dict) -> str:
     return markdown
 
 
-def load_sections(scholar: dict) -> list[Section]:
+def load_sections(
+    scholar: dict, publication_stats: dict[str, int]
+) -> list[Section]:
     sections: list[Section] = []
 
     for path in sorted(CONTENT_DIR.glob("*.md")):
         meta, body = parse_frontmatter(path.read_text(encoding="utf-8"))
         if meta.get("draft", "").lower() == "true":
             continue
-        body = hydrate_dynamic_content(body, scholar)
+        body = hydrate_dynamic_content(body, scholar, publication_stats)
 
         title = meta.get("title") or path.stem
         sections.append(
@@ -208,7 +265,9 @@ def load_scholar() -> dict:
     return data if isinstance(data, dict) else {}
 
 
-def render_metrics(site: dict, scholar: dict) -> str:
+def render_metrics(
+    site: dict, scholar: dict, publication_stats: dict[str, int]
+) -> str:
     metrics = site.get("metrics", [])
     metric_icons = {
         "Peer-reviewed SCI papers": "file-text",
@@ -219,8 +278,13 @@ def render_metrics(site: dict, scholar: dict) -> str:
     items = []
     for metric in metrics:
         metric_icon = metric_icons.get(metric["label"], "bar-chart")
-        automatic_value = scholar
-        for key in metric.get("scholarField", "").split("."):
+        automatic_value = (
+            publication_stats
+            if metric.get("publicationField")
+            else scholar
+        )
+        field = metric.get("publicationField") or metric.get("scholarField", "")
+        for key in field.split("."):
             if not key or not isinstance(automatic_value, dict):
                 automatic_value = None
                 break
@@ -442,7 +506,7 @@ def render_publication_group(
 
 
 def render_publications(scholar: dict) -> str:
-    publications = json.loads(PUBLICATIONS_FILE.read_text(encoding="utf-8"))
+    publications = load_publications()
     scholar_articles: dict[str, dict] = {}
     for article in scholar.get("articles", []):
         if not isinstance(article, dict) or not isinstance(article.get("title"), str):
@@ -464,7 +528,12 @@ def render_publications(scholar: dict) -> str:
     return f"{selected_html}\n{other_html}"
 
 
-def render_page(site: dict, sections: list[Section], scholar: dict) -> str:
+def render_page(
+    site: dict,
+    sections: list[Section],
+    scholar: dict,
+    publication_stats: dict[str, int],
+) -> str:
     analytics_id = site.get("googleAnalyticsId", "")
     analytics = ""
     if analytics_id:
@@ -518,7 +587,7 @@ def render_page(site: dict, sections: list[Section], scholar: dict) -> str:
     </header>
 
     <section class="metrics" aria-label="Research metrics">
-      {render_metrics(site, scholar)}
+      {render_metrics(site, scholar, publication_stats)}
     </section>
 
     {render_sections(sections, scholar)}
@@ -538,8 +607,12 @@ def render_page(site: dict, sections: list[Section], scholar: dict) -> str:
 def main() -> None:
     site = json.loads(SITE_FILE.read_text(encoding="utf-8"))
     scholar = load_scholar()
-    sections = load_sections(scholar)
-    OUTPUT_FILE.write_text(render_page(site, sections, scholar), encoding="utf-8")
+    publications = load_publications()
+    publication_stats = calculate_publication_stats(publications)
+    sections = load_sections(scholar, publication_stats)
+    OUTPUT_FILE.write_text(
+        render_page(site, sections, scholar, publication_stats), encoding="utf-8"
+    )
     print(f"Built {OUTPUT_FILE.relative_to(ROOT)} from {len(sections)} section(s).")
 
 

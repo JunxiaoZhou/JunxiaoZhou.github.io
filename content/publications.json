@@ -8,7 +8,7 @@
       "citation": "**3**, 214-225 (2026)"
     },
     {
-      "authors": "Xiaoyu Che, Xiaoyuan Liu, Xi Zhang, Yuhao Lei, Yefeng Yu, Lei Wang, **Junxiao Zhou^*^**, Zhishan Gao^*^, Din-Ping Tsai^*^",
+      "authors": "Xiaoyu Che^†^, Xiaoyuan Liu^†^, Xin Zhang, Yuhao Lei, Yefeng Yu, Lei Wang, **Junxiao Zhou^*^**, Zhishan Gao^*^, Din-Ping Tsai^*^",
       "title": "Varifocal Alvarez metalens array for adaptive light-field imaging",
       "venue": "Nature Communications",
       "url": "https://doi.org/10.1038/s41467-026-74606-8",
@@ -41,14 +41,14 @@
   ],
   "other": [
     {
-      "authors": "**Junxiao Zhou**, Fanglin Tian, Jie Hu, Zhixia (Linda) Shi, Veronica G. Godinez, Din-Ping Tsai, Zhaowei Liu^*^",
+      "authors": "**Junxiao Zhou**, Fanglin Tian, Jie Hu, Zhixia Linda Shi, Veronica Gomez Godinez, Din-Ping Tsai, Zhaowei Liu^*^",
       "title": "Eagle-eye inspired meta-device for phase imaging",
       "venue": "Advanced Materials",
       "url": "https://pubmed.ncbi.nlm.nih.gov/38816897",
       "citation": "2402751 (2024)"
     },
     {
-      "authors": "Qianyi Wu, **Junxiao Zhou^*^**, Junxiang Zhao, Ming Lei, Guanghao Chen, Jin Zhang, Zhaowei Liu^*^",
+      "authors": "Qianyi Wu, **Junxiao Zhou^*^**, Xinyu Chen, Junxiang Zhao, Ming Lei, Guanghao Chen, Yu-Hwa Lo, Zhaowei Liu^*^",
       "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
       "venue": "Optica",
       "url": "https://opg.optica.org/optica/fulltext.cfm?uri=optica-10-5-619&id=530741",
@@ -63,21 +63,21 @@
       "citation": "**7**, 1 (2026)"
     },
     {
-      "authors": "Yanliang He, Y. C. Zhu, Haimei Luo, Wen Yuan, Guiqiang Liu, Zhengqi Liu, Xianping Wang, **Junxiao Zhou^*^**",
+      "authors": "Yanliang He, Yuanfeng Zhu, Haimei Luo, Wen Yuan, Guiqiang Liu, Zhengqi Liu, Xianping Wang, **Junxiao Zhou^*^**",
       "title": "Optical topological differentiation cryptography",
       "venue": "Laser & Photonics Reviews",
       "url": "https://doi.org/10.1002/lpor.202502957",
       "citation": "**20**, e02957 (2026)"
     },
     {
-      "authors": "Chi-Fai Cheung, Xiaotong Zhang, Wenkai Zhao, Bo Wang, **Junxiao Zhou**, Laurence Ho, Din-Ping Tsai",
+      "authors": "Chi-Fai Cheung^*^, Fan Zhang, Wenkai Zhao, Bo Wang, **Junxiao Zhou**, Lai-Ting Ho, Din-Ping Tsai",
       "title": "Multiwave lateral shearing interferometry for wavefront optical characterization of metastructures",
       "venue": "Nanomanufacturing and Metrology",
       "url": "https://doi.org/10.1007/s41871-026-00294-z",
       "citation": "**9** (2026)"
     },
     {
-      "authors": "Junyi Wang, Jie Sun, Jian Li, Chunyu Huang, Jitao Ji, Wenjing Shen, Zhizhang Wang, **Junxiao Zhou**, Chen Chen^*^, Shining Zhu, Tao Li^*^",
+      "authors": "Junyi Wang, Jiacheng Sun, Jian Li, Chunyu Huang, Jitao Ji, Wenjing Shen, Zhizhang Wang, **Junxiao Zhou**, Chen Chen^*^, Shining Zhu, Tao Li^*^",
       "title": "Plan meta-objective for sub-micron quantitative phase imaging",
       "venue": "Light: Science & Applications",
       "url": "https://doi.org/10.1038/s41377-025-02099-z",
@@ -105,7 +105,7 @@
       "citation": "**14**, 1249-1256 (2025)"
     },
     {
-      "authors": "Xiaodong Qiu, Jingcheng Zhang, Yubin Fan, **Junxiao Zhou**, Lixiang Chen^*^, Din-Ping Tsai^*^",
+      "authors": "Xiaodong Qiu^†^, Jingcheng Zhang^†^, Yubin Fan, **Junxiao Zhou**, Lixiang Chen^*^, Din-Ping Tsai^*^",
       "title": "Metasurface enabled high-order differentiator",
       "venue": "Nature Communications",
       "url": "https://doi.org/10.1038/s41467-025-57715-8",
@@ -224,14 +224,14 @@
       "note": ""
     },
     {
-      "authors": "Rong Lin, Jin Yao^†^, Zhihui Wang, **Junxiao Zhou**, Din-Ping Tsai^*^",
+      "authors": "Rong Lin, Jin Yao, Zhihui Wang, **Junxiao Zhou**, Din-Ping Tsai^*^",
       "title": "Resonant meta-lens in the visible",
       "venue": "Laser & Photonics Reviews",
       "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/lpor.202401740",
       "citation": "2401740 (2024)"
     },
     {
-      "authors": "Yin Zhou, Lin Li, Junhao Zhang, Jialuo Cheng, Xiaoyuan Liu, Yunhui Gao, Zihan Geng, Lei Li^*^, **Junxiao Zhou^*^**, and Mu Ku Chen^*^",
+      "authors": "Yin Zhou, Lin Li, Junhao Zhang, Jialuo Cheng, Xiaoyuan Liu, Yunhui Gao, Zihan Geng^*^, Lei Li^*^, **Junxiao Zhou^*^**, and Mu Ku Chen^*^",
       "title": "Meta-device for field-of-view tunability via adaptive optical spatial differentiation",
       "venue": "Advanced Science",
       "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202412794",
@@ -259,7 +259,7 @@
       "citation": "**32**, 15115 (2024)"
     },
     {
-      "authors": "Ming Lei, Junxiang Zhao, **Junxiao Zhou**, Hongki Lee, Qianyi Wu, Guanghao Chen, Zhaowei Liu^*^",
+      "authors": "Ming Lei, Junxiang Zhao, **Junxiao Zhou**, Hongki Lee, Qianyi Wu, Zachary Burns, Guanghao Chen, Zhaowei Liu^*^",
       "title": "Super resolution label-free dark-field microscopy by deep learning",
       "venue": "Nanoscale",
       "url": "https://pubs.rsc.org/en/content/articlelanding/2024/nr/d3nr04294d/unauth",

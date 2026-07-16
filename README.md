@@ -11,7 +11,7 @@ This repository builds a static GitHub Pages homepage from Markdown content.
 - The hero background is controlled by `heroBackground` in `content/site.json`.
 - Hero background paths should start with `/assets/`, for example `/assets/header-metasurface-bg.jpg`.
 - To add a portrait, place the image at `assets/avatar.jpg` and run `make build`.
-- Research metric cards are configured in the `metrics` array in `content/site.json`. Static cards use `value`; Scholar-backed cards use `scholarField`.
+- Research metric cards are configured in the `metrics` array in `content/site.json`. Publication-backed cards use `publicationField`; Scholar-backed cards use `scholarField`.
 
 Example module:
 
@@ -42,7 +42,7 @@ Google Scholar metrics are normalized in `content/scholar.json`. The generated h
 
 The same Scholar response stores normalized article citation data. During the build, selected publications are matched by normalized title and display `Cited by N` when the count is greater than zero. Other publications remain unchanged apart from year grouping.
 
-The Personal Statement can reuse the same values with `{{ scholar_citations }}` and `{{ scholar_h_index }}` placeholders, keeping its prose synchronized with the metric cards during each build.
+The Personal Statement can reuse the same values with `{{ publication_count }}`, `{{ first_or_corresponding_count }}`, `{{ scholar_citations }}`, and `{{ scholar_h_index }}` placeholders, keeping its prose synchronized with the metric cards during each build.
 
 To refresh Scholar data locally, set the SerpApi key in the environment and run:
 
@@ -59,6 +59,21 @@ If the request fails or SerpApi returns incomplete data, the fetch script exits 
 ## Publication Format
 
 Publications are maintained in `content/publications.json`. Each item is rendered as a structured publication entry with title, authors, venue, citation details, and an optional note.
+
+The publication count is calculated from every item in the `selected` and `other` arrays. The first/corresponding-author count includes a paper when Junxiao Zhou is listed first or when his author entry contains `^†^` or `^*^`.
+
+### Add a publication by title
+
+Add one complete title per line to `content/new-publications.txt` and push the change to `main`. GitHub Actions queries Crossref, accepts only a high-confidence title match, adds the publication to the beginning of the `other` list, rebuilds the homepage, and commits the generated data automatically. Crossref supplies the authors, journal, DOI, year, volume, pages, or article number without requiring an API key.
+
+Run the same update locally with:
+
+```bash
+make publications
+make build
+```
+
+Crossref does not consistently publish equal-contribution or corresponding-author notes. Generated author lists therefore bold Junxiao Zhou but do not guess `^†^` or `^*^`; add those markers manually when the publisher identifies them. If Crossref cannot find a high-confidence match or required metadata is incomplete, the workflow stops without adding an uncertain record.
 
 Other publications are automatically grouped by the year in the trailing `(YYYY)` portion of each `citation` field. Numeric page ranges are rendered with an en dash.
 

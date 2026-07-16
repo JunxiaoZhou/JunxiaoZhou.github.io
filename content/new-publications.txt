@@ -1,0 +1,2 @@
+# Add one complete publication title per line. GitHub Actions will resolve
+# high-confidence matches through Crossref and add them to publications.json.
