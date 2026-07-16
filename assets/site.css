@@ -84,17 +84,6 @@ a:hover {
     var(--paper);
 }
 
-.profile-header::after {
-  position: absolute;
-  right: 300px;
-  bottom: 22px;
-  width: 156px;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(13, 107, 99, 0.28), transparent);
-  content: "";
-  pointer-events: none;
-}
-
 .profile-main {
   position: relative;
   z-index: 1;
