@@ -4,9 +4,9 @@ title: General Information
 
 ### Research Interests
 
-- **Meta-optics** • Nanophotonics<br>• Metasurfaces
-- **Optical Imaging** • Optical imaging<br>• Edge imaging<br>• Quantitative phase imaging
-- **Light–Matter Interactions** • Spin-orbit interactions of light<br>• Nonlinear optics
+- Nanophotonics · Metasurfaces
+- Optical imaging · Edge imaging · Quantitative phase imaging
+- Spin-orbit interactions of light · Nonlinear optics
 
 ### Work and Study Experience
 

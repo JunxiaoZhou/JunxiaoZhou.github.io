@@ -333,56 +333,38 @@ h1 {
 }
 
 #research-interests + ul {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0;
-  margin-top: 15px;
-  counter-reset: research-theme;
+  grid-template-columns: 1fr;
+  gap: 8px;
+  margin-top: 13px;
 }
 
 #research-interests + ul li {
-  padding: 0 30px;
-  color: var(--text);
-  font-size: 0.84rem;
-  font-weight: 400;
-  line-height: 1.55;
-  counter-increment: research-theme;
+  position: relative;
+  min-height: 0;
+  padding: 0 0 0 20px;
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.6;
+  overflow-x: auto;
+  scrollbar-width: none;
+  white-space: nowrap;
 }
 
-#research-interests + ul li:first-child {
-  padding-left: 0;
-}
-
-#research-interests + ul li:last-child {
-  padding-right: 0;
-}
-
-#research-interests + ul li + li {
-  border-left: 1px solid var(--line-strong);
+#research-interests + ul li::-webkit-scrollbar {
+  display: none;
 }
 
 #research-interests + ul li::before {
-  position: static;
-  display: block;
-  width: auto;
-  height: auto;
-  margin-bottom: 4px;
-  background: none;
-  color: var(--accent);
-  font-size: 0.68rem;
-  font-weight: 700;
-  line-height: 1;
-  letter-spacing: 0.08em;
-  content: counter(research-theme, decimal-leading-zero);
-}
-
-#research-interests + ul li strong {
-  display: block;
-  margin-bottom: 4px;
-  color: var(--accent-dark);
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.045em;
-  text-transform: uppercase;
+  position: absolute;
+  top: 0.78em;
+  left: 1px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+  opacity: 0.78;
+  content: "";
 }
 
 #work-and-study-experience + ul {
@@ -733,20 +715,6 @@ h1 {
 
   .metrics {
     grid-template-columns: 1fr;
-  }
-
-  #research-interests + ul {
-    grid-template-columns: 1fr;
-  }
-
-  #research-interests + ul li {
-    margin-top: 16px;
-    padding: 0;
-    border-left: 0;
-  }
-
-  #research-interests + ul li:first-child {
-    margin-top: 0;
   }
 
   #publications .publication-list--selected-publications .publication-details > :nth-child(n + 3)::before {
