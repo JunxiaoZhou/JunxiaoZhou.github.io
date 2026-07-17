@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 2992
+    "all": 2999
   },
   "hIndex": {
     "all": 24
@@ -9,7 +9,7 @@
   "articles": [
     {
       "title": "Optical edge detection based on high-efficiency dielectric metasurface",
-      "citedBy": 449
+      "citedBy": 452
     },
     {
       "title": "Generation of perfect vortex and vector beams based on Pancharatnam-Berry phase elements",
@@ -33,7 +33,7 @@
     },
     {
       "title": "Broadband photonic spin Hall meta-lens",
-      "citedBy": 129
+      "citedBy": 130
     },
     {
       "title": "Generation of Airy vortex and Airy vector beams based on the modulation of dynamic and geometric phases",
@@ -97,7 +97,7 @@
     },
     {
       "title": "Eagle‐Eye Inspired Meta‐Device for Phase Imaging",
-      "citedBy": 27
+      "citedBy": 28
     },
     {
       "title": "A spin controlled wavefront shaping metasurface with low dispersion in visible frequencies",
@@ -117,7 +117,7 @@
     },
     {
       "title": "A review on optical torques: from engineered light fields to objects",
-      "citedBy": 19
+      "citedBy": 20
     },
     {
       "title": "Speckle structured illumination endoscopy with enhanced resolution at wide field of view and depth of field",
@@ -172,12 +172,12 @@
       "citedBy": 6
     },
     {
-      "title": "Plan meta-objective for sub-micron quantitative phase imaging",
+      "title": "Challenges and opportunities of metalenses",
       "citedBy": 4
     },
     {
-      "title": "Challenges and opportunities of metalenses",
-      "citedBy": 3
+      "title": "Plan meta-objective for sub-micron quantitative phase imaging",
+      "citedBy": 4
     },
     {
       "title": "Infrared Color-Sorting Metasurface",
