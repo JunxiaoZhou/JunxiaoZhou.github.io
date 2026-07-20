@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 2999
+    "all": 3002
   },
   "hIndex": {
     "all": 24
@@ -9,7 +9,7 @@
   "articles": [
     {
       "title": "Optical edge detection based on high-efficiency dielectric metasurface",
-      "citedBy": 452
+      "citedBy": 453
     },
     {
       "title": "Generation of perfect vortex and vector beams based on Pancharatnam-Berry phase elements",
@@ -53,7 +53,7 @@
     },
     {
       "title": "Advanced Manufacturing of Dielectric Meta-devices",
-      "citedBy": 83
+      "citedBy": 84
     },
     {
       "title": "Optical analog computing of two-dimensional spatial differentiation based on the Brewster effect",
@@ -72,12 +72,12 @@
       "citedBy": 62
     },
     {
-      "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
+      "title": "Metasurface enabled high-order differentiator",
       "citedBy": 59
     },
     {
-      "title": "Metasurface enabled high-order differentiator",
-      "citedBy": 58
+      "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
+      "citedBy": 59
     },
     {
       "title": "Higher-order laser mode converters with dielectric metasurfaces",
