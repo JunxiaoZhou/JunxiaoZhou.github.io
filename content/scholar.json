@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3002
+    "all": 3009
   },
   "hIndex": {
     "all": 24
@@ -9,7 +9,7 @@
   "articles": [
     {
       "title": "Optical edge detection based on high-efficiency dielectric metasurface",
-      "citedBy": 453
+      "citedBy": 455
     },
     {
       "title": "Generation of perfect vortex and vector beams based on Pancharatnam-Berry phase elements",
@@ -25,7 +25,7 @@
     },
     {
       "title": "Ultrasensitive and real-time detection of chemical reaction rate based on the photonic spin Hall effect",
-      "citedBy": 148
+      "citedBy": 149
     },
     {
       "title": "Spatial differential operation and edge detection based on the geometric spin Hall effect of light",
@@ -53,7 +53,7 @@
     },
     {
       "title": "Advanced Manufacturing of Dielectric Meta-devices",
-      "citedBy": 84
+      "citedBy": 85
     },
     {
       "title": "Optical analog computing of two-dimensional spatial differentiation based on the Brewster effect",
@@ -72,11 +72,11 @@
       "citedBy": 62
     },
     {
-      "title": "Metasurface enabled high-order differentiator",
-      "citedBy": 59
+      "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
+      "citedBy": 60
     },
     {
-      "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
+      "title": "Metasurface enabled high-order differentiator",
       "citedBy": 59
     },
     {
@@ -108,16 +108,16 @@
       "citedBy": 23
     },
     {
+      "title": "A review on optical torques: from engineered light fields to objects",
+      "citedBy": 22
+    },
+    {
       "title": "Super resolution label-free dark-field microscopy by deep learning",
       "citedBy": 22
     },
     {
       "title": "Geometric phase Doppler effect: when structured light meets rotating structured materials",
       "citedBy": 21
-    },
-    {
-      "title": "A review on optical torques: from engineered light fields to objects",
-      "citedBy": 20
     },
     {
       "title": "Speckle structured illumination endoscopy with enhanced resolution at wide field of view and depth of field",
