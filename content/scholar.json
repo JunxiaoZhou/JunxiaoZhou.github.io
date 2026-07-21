@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3009
+    "all": 3013
   },
   "hIndex": {
     "all": 24
@@ -17,11 +17,11 @@
     },
     {
       "title": "Metasurface enabled quantum edge detection",
-      "citedBy": 250
+      "citedBy": 251
     },
     {
       "title": "Two-dimensional optical spatial differentiation and high-contrast imaging",
-      "citedBy": 190
+      "citedBy": 191
     },
     {
       "title": "Ultrasensitive and real-time detection of chemical reaction rate based on the photonic spin Hall effect",
@@ -29,7 +29,7 @@
     },
     {
       "title": "Spatial differential operation and edge detection based on the geometric spin Hall effect of light",
-      "citedBy": 144
+      "citedBy": 143
     },
     {
       "title": "Broadband photonic spin Hall meta-lens",
@@ -57,7 +57,7 @@
     },
     {
       "title": "Optical analog computing of two-dimensional spatial differentiation based on the Brewster effect",
-      "citedBy": 83
+      "citedBy": 84
     },
     {
       "title": "Fourier optical spin splitting microscopy",
@@ -72,12 +72,12 @@
       "citedBy": 62
     },
     {
-      "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
+      "title": "Metasurface enabled high-order differentiator",
       "citedBy": 60
     },
     {
-      "title": "Metasurface enabled high-order differentiator",
-      "citedBy": 59
+      "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
+      "citedBy": 60
     },
     {
       "title": "Higher-order laser mode converters with dielectric metasurfaces",
@@ -125,10 +125,14 @@
     },
     {
       "title": "Kerr metasurface enabled by metallic quantum wells",
-      "citedBy": 19
+      "citedBy": 18
     },
     {
       "title": "Tunable meta-device for large depth of field quantitative phase imaging",
+      "citedBy": 17
+    },
+    {
+      "title": "Meta-Device for Field-of-View Tunability via Adaptive Optical Spatial Differentiation",
       "citedBy": 17
     },
     {
@@ -140,10 +144,6 @@
       "citedBy": 17
     },
     {
-      "title": "Meta-Device for Field-of-View Tunability via Adaptive Optical Spatial Differentiation",
-      "citedBy": 16
-    },
-    {
       "title": "Deep Learning Assisted Plasmonic Dark-Field Microscopy for Super-Resolution Label-Free Imaging",
       "citedBy": 13
     },
@@ -153,7 +153,7 @@
     },
     {
       "title": "Advanced Quantitative Phase Microscopy Achieved with Spatial Multiplexing and a Metasurface",
-      "citedBy": 11
+      "citedBy": 12
     },
     {
       "title": "Compact photonic spin filters",
