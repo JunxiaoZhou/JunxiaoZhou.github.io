@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3016
+    "all": 3019
   },
   "hIndex": {
     "all": 24
@@ -21,7 +21,7 @@
     },
     {
       "title": "Two-dimensional optical spatial differentiation and high-contrast imaging",
-      "citedBy": 191
+      "citedBy": 192
     },
     {
       "title": "Ultrasensitive and real-time detection of chemical reaction rate based on the photonic spin Hall effect",
@@ -57,7 +57,7 @@
     },
     {
       "title": "Optical analog computing of two-dimensional spatial differentiation based on the Brewster effect",
-      "citedBy": 84
+      "citedBy": 85
     },
     {
       "title": "Fourier optical spin splitting microscopy",
@@ -72,11 +72,11 @@
       "citedBy": 62
     },
     {
-      "title": "Metasurface enabled high-order differentiator",
-      "citedBy": 60
+      "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
+      "citedBy": 61
     },
     {
-      "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
+      "title": "Metasurface enabled high-order differentiator",
       "citedBy": 60
     },
     {
