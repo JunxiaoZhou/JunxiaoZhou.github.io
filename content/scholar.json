@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3019
+    "all": 3027
   },
   "hIndex": {
     "all": 24
@@ -9,7 +9,7 @@
   "articles": [
     {
       "title": "Optical edge detection based on high-efficiency dielectric metasurface",
-      "citedBy": 455
+      "citedBy": 456
     },
     {
       "title": "Generation of perfect vortex and vector beams based on Pancharatnam-Berry phase elements",
@@ -21,7 +21,7 @@
     },
     {
       "title": "Two-dimensional optical spatial differentiation and high-contrast imaging",
-      "citedBy": 192
+      "citedBy": 193
     },
     {
       "title": "Ultrasensitive and real-time detection of chemical reaction rate based on the photonic spin Hall effect",
@@ -29,7 +29,7 @@
     },
     {
       "title": "Spatial differential operation and edge detection based on the geometric spin Hall effect of light",
-      "citedBy": 144
+      "citedBy": 143
     },
     {
       "title": "Broadband photonic spin Hall meta-lens",
@@ -53,7 +53,7 @@
     },
     {
       "title": "Advanced Manufacturing of Dielectric Meta-devices",
-      "citedBy": 85
+      "citedBy": 87
     },
     {
       "title": "Optical analog computing of two-dimensional spatial differentiation based on the Brewster effect",
@@ -97,19 +97,19 @@
     },
     {
       "title": "Eagle‐Eye Inspired Meta‐Device for Phase Imaging",
-      "citedBy": 28
+      "citedBy": 29
     },
     {
       "title": "A spin controlled wavefront shaping metasurface with low dispersion in visible frequencies",
       "citedBy": 25
     },
     {
-      "title": "Visible and near-infrared dual band switchable metasurface edge imaging",
-      "citedBy": 23
+      "title": "A review on optical torques: from engineered light fields to objects",
+      "citedBy": 24
     },
     {
-      "title": "A review on optical torques: from engineered light fields to objects",
-      "citedBy": 22
+      "title": "Visible and near-infrared dual band switchable metasurface edge imaging",
+      "citedBy": 23
     },
     {
       "title": "Super resolution label-free dark-field microscopy by deep learning",
@@ -125,7 +125,7 @@
     },
     {
       "title": "Kerr metasurface enabled by metallic quantum wells",
-      "citedBy": 18
+      "citedBy": 19
     },
     {
       "title": "Tunable meta-device for large depth of field quantitative phase imaging",
@@ -173,7 +173,7 @@
     },
     {
       "title": "Challenges and opportunities of metalenses",
-      "citedBy": 4
+      "citedBy": 5
     },
     {
       "title": "Plan meta-objective for sub-micron quantitative phase imaging",
