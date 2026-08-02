@@ -1,27 +1,27 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3027
+    "all": 3072
   },
   "hIndex": {
-    "all": 24
+    "all": 25
   },
   "articles": [
     {
       "title": "Optical edge detection based on high-efficiency dielectric metasurface",
-      "citedBy": 456
+      "citedBy": 527
     },
     {
       "title": "Generation of perfect vortex and vector beams based on Pancharatnam-Berry phase elements",
-      "citedBy": 262
+      "citedBy": 261
     },
     {
       "title": "Metasurface enabled quantum edge detection",
-      "citedBy": 252
+      "citedBy": 247
     },
     {
       "title": "Two-dimensional optical spatial differentiation and high-contrast imaging",
-      "citedBy": 193
+      "citedBy": 180
     },
     {
       "title": "Ultrasensitive and real-time detection of chemical reaction rate based on the photonic spin Hall effect",
@@ -29,7 +29,7 @@
     },
     {
       "title": "Spatial differential operation and edge detection based on the geometric spin Hall effect of light",
-      "citedBy": 143
+      "citedBy": 141
     },
     {
       "title": "Broadband photonic spin Hall meta-lens",
@@ -37,27 +37,27 @@
     },
     {
       "title": "Generation of Airy vortex and Airy vector beams based on the modulation of dynamic and geometric phases",
-      "citedBy": 123
+      "citedBy": 121
     },
     {
       "title": "Roadmap on electromagnetic metamaterials and metasurfaces",
-      "citedBy": 106
+      "citedBy": 107
     },
     {
       "title": "Goos–Hänchen effect enabled optical differential operation and image edge detection",
-      "citedBy": 106
+      "citedBy": 105
     },
     {
       "title": "Wavelength-independent optical fully differential operation based on the spin–orbit interaction of light",
-      "citedBy": 99
+      "citedBy": 96
     },
     {
       "title": "Advanced Manufacturing of Dielectric Meta-devices",
-      "citedBy": 87
+      "citedBy": 84
     },
     {
       "title": "Optical analog computing of two-dimensional spatial differentiation based on the Brewster effect",
-      "citedBy": 85
+      "citedBy": 84
     },
     {
       "title": "Fourier optical spin splitting microscopy",
@@ -65,7 +65,11 @@
     },
     {
       "title": "Nonlinear computational edge detection metalens",
-      "citedBy": 77
+      "citedBy": 78
+    },
+    {
+      "title": "Metasurface enabled high-order differentiator",
+      "citedBy": 62
     },
     {
       "title": "Optical integration of Pancharatnam-Berry phase lens and dynamical phase lens",
@@ -73,15 +77,11 @@
     },
     {
       "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
-      "citedBy": 61
-    },
-    {
-      "title": "Metasurface enabled high-order differentiator",
-      "citedBy": 60
+      "citedBy": 59
     },
     {
       "title": "Higher-order laser mode converters with dielectric metasurfaces",
-      "citedBy": 52
+      "citedBy": 51
     },
     {
       "title": "Measurements of Pancharatnam–Berry phase in mode transformations on hybrid-order Poincaré sphere",
@@ -93,50 +93,46 @@
     },
     {
       "title": "Realization of spin-dependent splitting with arbitrary intensity patterns based on all-dielectric metasurfaces",
-      "citedBy": 31
+      "citedBy": 32
     },
     {
       "title": "Eagle‐Eye Inspired Meta‐Device for Phase Imaging",
       "citedBy": 29
     },
     {
-      "title": "A spin controlled wavefront shaping metasurface with low dispersion in visible frequencies",
-      "citedBy": 25
+      "title": "A review on optical torques: from engineered light fields to objects",
+      "citedBy": 27
     },
     {
-      "title": "A review on optical torques: from engineered light fields to objects",
-      "citedBy": 24
+      "title": "A spin controlled wavefront shaping metasurface with low dispersion in visible frequencies",
+      "citedBy": 25
     },
     {
       "title": "Visible and near-infrared dual band switchable metasurface edge imaging",
       "citedBy": 23
     },
     {
+      "title": "Meta-Device for Field-of-View Tunability via Adaptive Optical Spatial Differentiation",
+      "citedBy": 21
+    },
+    {
       "title": "Super resolution label-free dark-field microscopy by deep learning",
-      "citedBy": 22
+      "citedBy": 21
     },
     {
       "title": "Geometric phase Doppler effect: when structured light meets rotating structured materials",
       "citedBy": 21
     },
     {
-      "title": "Speckle structured illumination endoscopy with enhanced resolution at wide field of view and depth of field",
-      "citedBy": 19
-    },
-    {
       "title": "Kerr metasurface enabled by metallic quantum wells",
       "citedBy": 19
     },
     {
-      "title": "Tunable meta-device for large depth of field quantitative phase imaging",
-      "citedBy": 17
-    },
-    {
-      "title": "Meta-Device for Field-of-View Tunability via Adaptive Optical Spatial Differentiation",
-      "citedBy": 17
-    },
-    {
       "title": "Photonic spin filter with dielectric metasurfaces",
+      "citedBy": 18
+    },
+    {
+      "title": "Tunable meta-device for large depth of field quantitative phase imaging",
       "citedBy": 17
     },
     {
@@ -144,15 +140,19 @@
       "citedBy": 17
     },
     {
+      "title": "Speckle structured illumination endoscopy with enhanced resolution at wide field of view and depth of field",
+      "citedBy": 14
+    },
+    {
       "title": "Deep Learning Assisted Plasmonic Dark-Field Microscopy for Super-Resolution Label-Free Imaging",
       "citedBy": 13
     },
     {
-      "title": "Tunable dielectric BIC metasurface for high resolution optical filters",
-      "citedBy": 13
+      "title": "Advanced Quantitative Phase Microscopy Achieved with Spatial Multiplexing and a Metasurface",
+      "citedBy": 12
     },
     {
-      "title": "Advanced Quantitative Phase Microscopy Achieved with Spatial Multiplexing and a Metasurface",
+      "title": "Tunable dielectric BIC metasurface for high resolution optical filters",
       "citedBy": 12
     },
     {
@@ -165,7 +165,7 @@
     },
     {
       "title": "Resonant Meta‐Lens in the Visible",
-      "citedBy": 6
+      "citedBy": 8
     },
     {
       "title": "Tunable topological phase transition in the telecommunication wavelength",
@@ -216,11 +216,11 @@
       "citedBy": 0
     },
     {
-      "title": "Multiwave Lateral Shearing Interferometry for Wavefront Optical Characterization of Metastructures",
+      "title": "Optical Topological Differentiation Cryptography",
       "citedBy": 0
     },
     {
-      "title": "Optical Topological Differentiation Cryptography",
+      "title": "Multiwave Lateral Shearing Interferometry for Wavefront Optical Characterization of Metastructures",
       "citedBy": 0
     },
     {
