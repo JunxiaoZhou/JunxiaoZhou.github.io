@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3072
+    "all": 3093
   },
   "hIndex": {
     "all": 25
@@ -9,7 +9,7 @@
   "articles": [
     {
       "title": "Optical edge detection based on high-efficiency dielectric metasurface",
-      "citedBy": 527
+      "citedBy": 530
     },
     {
       "title": "Generation of perfect vortex and vector beams based on Pancharatnam-Berry phase elements",
@@ -17,11 +17,11 @@
     },
     {
       "title": "Metasurface enabled quantum edge detection",
-      "citedBy": 247
+      "citedBy": 250
     },
     {
       "title": "Two-dimensional optical spatial differentiation and high-contrast imaging",
-      "citedBy": 180
+      "citedBy": 181
     },
     {
       "title": "Ultrasensitive and real-time detection of chemical reaction rate based on the photonic spin Hall effect",
@@ -49,19 +49,19 @@
     },
     {
       "title": "Wavelength-independent optical fully differential operation based on the spin–orbit interaction of light",
-      "citedBy": 96
+      "citedBy": 97
     },
     {
       "title": "Advanced Manufacturing of Dielectric Meta-devices",
-      "citedBy": 84
+      "citedBy": 86
     },
     {
       "title": "Optical analog computing of two-dimensional spatial differentiation based on the Brewster effect",
-      "citedBy": 84
+      "citedBy": 86
     },
     {
       "title": "Fourier optical spin splitting microscopy",
-      "citedBy": 82
+      "citedBy": 85
     },
     {
       "title": "Nonlinear computational edge detection metalens",
@@ -69,7 +69,7 @@
     },
     {
       "title": "Metasurface enabled high-order differentiator",
-      "citedBy": 62
+      "citedBy": 63
     },
     {
       "title": "Optical integration of Pancharatnam-Berry phase lens and dynamical phase lens",
@@ -77,7 +77,7 @@
     },
     {
       "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
-      "citedBy": 59
+      "citedBy": 60
     },
     {
       "title": "Higher-order laser mode converters with dielectric metasurfaces",
@@ -101,7 +101,7 @@
     },
     {
       "title": "A review on optical torques: from engineered light fields to objects",
-      "citedBy": 27
+      "citedBy": 28
     },
     {
       "title": "A spin controlled wavefront shaping metasurface with low dispersion in visible frequencies",
@@ -113,7 +113,7 @@
     },
     {
       "title": "Meta-Device for Field-of-View Tunability via Adaptive Optical Spatial Differentiation",
-      "citedBy": 21
+      "citedBy": 22
     },
     {
       "title": "Super resolution label-free dark-field microscopy by deep learning",
@@ -125,7 +125,7 @@
     },
     {
       "title": "Kerr metasurface enabled by metallic quantum wells",
-      "citedBy": 19
+      "citedBy": 20
     },
     {
       "title": "Photonic spin filter with dielectric metasurfaces",
@@ -156,15 +156,15 @@
       "citedBy": 12
     },
     {
+      "title": "Resonant Meta‐Lens in the Visible",
+      "citedBy": 9
+    },
+    {
       "title": "Compact photonic spin filters",
       "citedBy": 9
     },
     {
       "title": "Varifocal Meta‐Lens for Multifunctional Focusing and Imaging",
-      "citedBy": 8
-    },
-    {
-      "title": "Resonant Meta‐Lens in the Visible",
       "citedBy": 8
     },
     {
