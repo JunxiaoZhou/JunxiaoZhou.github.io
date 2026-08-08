@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3093
+    "all": 3102
   },
   "hIndex": {
     "all": 25
@@ -25,7 +25,7 @@
     },
     {
       "title": "Ultrasensitive and real-time detection of chemical reaction rate based on the photonic spin Hall effect",
-      "citedBy": 150
+      "citedBy": 151
     },
     {
       "title": "Spatial differential operation and edge detection based on the geometric spin Hall effect of light",
@@ -41,7 +41,7 @@
     },
     {
       "title": "Roadmap on electromagnetic metamaterials and metasurfaces",
-      "citedBy": 107
+      "citedBy": 109
     },
     {
       "title": "Goos–Hänchen effect enabled optical differential operation and image edge detection",
@@ -53,7 +53,7 @@
     },
     {
       "title": "Advanced Manufacturing of Dielectric Meta-devices",
-      "citedBy": 86
+      "citedBy": 87
     },
     {
       "title": "Optical analog computing of two-dimensional spatial differentiation based on the Brewster effect",
@@ -69,7 +69,7 @@
     },
     {
       "title": "Metasurface enabled high-order differentiator",
-      "citedBy": 63
+      "citedBy": 64
     },
     {
       "title": "Optical integration of Pancharatnam-Berry phase lens and dynamical phase lens",
@@ -96,12 +96,12 @@
       "citedBy": 32
     },
     {
-      "title": "Eagle‐Eye Inspired Meta‐Device for Phase Imaging",
+      "title": "A review on optical torques: from engineered light fields to objects",
       "citedBy": 29
     },
     {
-      "title": "A review on optical torques: from engineered light fields to objects",
-      "citedBy": 28
+      "title": "Eagle‐Eye Inspired Meta‐Device for Phase Imaging",
+      "citedBy": 29
     },
     {
       "title": "A spin controlled wavefront shaping metasurface with low dispersion in visible frequencies",
@@ -141,7 +141,7 @@
     },
     {
       "title": "Speckle structured illumination endoscopy with enhanced resolution at wide field of view and depth of field",
-      "citedBy": 14
+      "citedBy": 15
     },
     {
       "title": "Deep Learning Assisted Plasmonic Dark-Field Microscopy for Super-Resolution Label-Free Imaging",
@@ -168,16 +168,16 @@
       "citedBy": 8
     },
     {
+      "title": "Challenges and opportunities of metalenses",
+      "citedBy": 6
+    },
+    {
       "title": "Tunable topological phase transition in the telecommunication wavelength",
       "citedBy": 6
     },
     {
-      "title": "Challenges and opportunities of metalenses",
-      "citedBy": 5
-    },
-    {
       "title": "Plan meta-objective for sub-micron quantitative phase imaging",
-      "citedBy": 4
+      "citedBy": 5
     },
     {
       "title": "Infrared Color-Sorting Metasurface",
