@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3102
+    "all": 3108
   },
   "hIndex": {
     "all": 25
@@ -53,7 +53,7 @@
     },
     {
       "title": "Advanced Manufacturing of Dielectric Meta-devices",
-      "citedBy": 87
+      "citedBy": 88
     },
     {
       "title": "Optical analog computing of two-dimensional spatial differentiation based on the Brewster effect",
@@ -77,7 +77,7 @@
     },
     {
       "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
-      "citedBy": 60
+      "citedBy": 61
     },
     {
       "title": "Higher-order laser mode converters with dielectric metasurfaces",
@@ -96,12 +96,12 @@
       "citedBy": 32
     },
     {
-      "title": "A review on optical torques: from engineered light fields to objects",
-      "citedBy": 29
+      "title": "Eagle‐Eye Inspired Meta‐Device for Phase Imaging",
+      "citedBy": 30
     },
     {
-      "title": "Eagle‐Eye Inspired Meta‐Device for Phase Imaging",
-      "citedBy": 29
+      "title": "A review on optical torques: from engineered light fields to objects",
+      "citedBy": 28
     },
     {
       "title": "A spin controlled wavefront shaping metasurface with low dispersion in visible frequencies",
@@ -117,7 +117,7 @@
     },
     {
       "title": "Super resolution label-free dark-field microscopy by deep learning",
-      "citedBy": 21
+      "citedBy": 22
     },
     {
       "title": "Geometric phase Doppler effect: when structured light meets rotating structured materials",
@@ -144,16 +144,20 @@
       "citedBy": 15
     },
     {
+      "title": "Advanced Quantitative Phase Microscopy Achieved with Spatial Multiplexing and a Metasurface",
+      "citedBy": 13
+    },
+    {
       "title": "Deep Learning Assisted Plasmonic Dark-Field Microscopy for Super-Resolution Label-Free Imaging",
       "citedBy": 13
     },
     {
-      "title": "Advanced Quantitative Phase Microscopy Achieved with Spatial Multiplexing and a Metasurface",
-      "citedBy": 12
+      "title": "Tunable dielectric BIC metasurface for high resolution optical filters",
+      "citedBy": 13
     },
     {
-      "title": "Tunable dielectric BIC metasurface for high resolution optical filters",
-      "citedBy": 12
+      "title": "Varifocal Meta‐Lens for Multifunctional Focusing and Imaging",
+      "citedBy": 9
     },
     {
       "title": "Resonant Meta‐Lens in the Visible",
@@ -162,10 +166,6 @@
     {
       "title": "Compact photonic spin filters",
       "citedBy": 9
-    },
-    {
-      "title": "Varifocal Meta‐Lens for Multifunctional Focusing and Imaging",
-      "citedBy": 8
     },
     {
       "title": "Challenges and opportunities of metalenses",
