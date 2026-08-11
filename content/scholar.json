@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3108
+    "all": 3112
   },
   "hIndex": {
     "all": 25
@@ -17,7 +17,7 @@
     },
     {
       "title": "Metasurface enabled quantum edge detection",
-      "citedBy": 250
+      "citedBy": 251
     },
     {
       "title": "Two-dimensional optical spatial differentiation and high-contrast imaging",
@@ -53,15 +53,15 @@
     },
     {
       "title": "Advanced Manufacturing of Dielectric Meta-devices",
-      "citedBy": 88
+      "citedBy": 89
+    },
+    {
+      "title": "Fourier optical spin splitting microscopy",
+      "citedBy": 86
     },
     {
       "title": "Optical analog computing of two-dimensional spatial differentiation based on the Brewster effect",
       "citedBy": 86
-    },
-    {
-      "title": "Fourier optical spin splitting microscopy",
-      "citedBy": 85
     },
     {
       "title": "Nonlinear computational edge detection metalens",
@@ -156,11 +156,11 @@
       "citedBy": 13
     },
     {
-      "title": "Varifocal Meta‐Lens for Multifunctional Focusing and Imaging",
-      "citedBy": 9
+      "title": "Resonant Meta‐Lens in the Visible",
+      "citedBy": 10
     },
     {
-      "title": "Resonant Meta‐Lens in the Visible",
+      "title": "Varifocal Meta‐Lens for Multifunctional Focusing and Imaging",
       "citedBy": 9
     },
     {
