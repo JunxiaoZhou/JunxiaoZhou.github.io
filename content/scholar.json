@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3112
+    "all": 3123
   },
   "hIndex": {
     "all": 25
@@ -17,15 +17,15 @@
     },
     {
       "title": "Metasurface enabled quantum edge detection",
-      "citedBy": 251
+      "citedBy": 252
     },
     {
       "title": "Two-dimensional optical spatial differentiation and high-contrast imaging",
-      "citedBy": 181
+      "citedBy": 182
     },
     {
       "title": "Ultrasensitive and real-time detection of chemical reaction rate based on the photonic spin Hall effect",
-      "citedBy": 151
+      "citedBy": 153
     },
     {
       "title": "Spatial differential operation and edge detection based on the geometric spin Hall effect of light",
@@ -41,7 +41,7 @@
     },
     {
       "title": "Roadmap on electromagnetic metamaterials and metasurfaces",
-      "citedBy": 109
+      "citedBy": 110
     },
     {
       "title": "Goos–Hänchen effect enabled optical differential operation and image edge detection",
@@ -57,7 +57,7 @@
     },
     {
       "title": "Fourier optical spin splitting microscopy",
-      "citedBy": 86
+      "citedBy": 88
     },
     {
       "title": "Optical analog computing of two-dimensional spatial differentiation based on the Brewster effect",
@@ -72,12 +72,12 @@
       "citedBy": 64
     },
     {
-      "title": "Optical integration of Pancharatnam-Berry phase lens and dynamical phase lens",
-      "citedBy": 62
+      "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
+      "citedBy": 63
     },
     {
-      "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
-      "citedBy": 61
+      "title": "Optical integration of Pancharatnam-Berry phase lens and dynamical phase lens",
+      "citedBy": 62
     },
     {
       "title": "Higher-order laser mode converters with dielectric metasurfaces",
@@ -101,7 +101,7 @@
     },
     {
       "title": "A review on optical torques: from engineered light fields to objects",
-      "citedBy": 28
+      "citedBy": 29
     },
     {
       "title": "A spin controlled wavefront shaping metasurface with low dispersion in visible frequencies",
@@ -204,6 +204,10 @@
       "citedBy": 2
     },
     {
+      "title": "Optical Topological Differentiation Cryptography",
+      "citedBy": 1
+    },
+    {
       "title": "Spin-orbit interaction of light on the surface of atomically thin crystals",
       "citedBy": 1
     },
@@ -213,10 +217,6 @@
     },
     {
       "title": "Varifocal Alvarez metalens array for adaptive light-field imaging",
-      "citedBy": 0
-    },
-    {
-      "title": "Optical Topological Differentiation Cryptography",
       "citedBy": 0
     },
     {
