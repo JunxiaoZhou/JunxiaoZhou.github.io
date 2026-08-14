@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3123
+    "all": 3129
   },
   "hIndex": {
     "all": 25
@@ -53,7 +53,7 @@
     },
     {
       "title": "Advanced Manufacturing of Dielectric Meta-devices",
-      "citedBy": 89
+      "citedBy": 90
     },
     {
       "title": "Fourier optical spin splitting microscopy",
@@ -144,6 +144,10 @@
       "citedBy": 15
     },
     {
+      "title": "Resonant Meta‐Lens in the Visible",
+      "citedBy": 13
+    },
+    {
       "title": "Advanced Quantitative Phase Microscopy Achieved with Spatial Multiplexing and a Metasurface",
       "citedBy": 13
     },
@@ -156,12 +160,8 @@
       "citedBy": 13
     },
     {
-      "title": "Resonant Meta‐Lens in the Visible",
-      "citedBy": 10
-    },
-    {
       "title": "Varifocal Meta‐Lens for Multifunctional Focusing and Imaging",
-      "citedBy": 9
+      "citedBy": 11
     },
     {
       "title": "Compact photonic spin filters",
