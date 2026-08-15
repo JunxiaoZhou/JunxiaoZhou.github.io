@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3129
+    "all": 3132
   },
   "hIndex": {
     "all": 25
@@ -17,7 +17,7 @@
     },
     {
       "title": "Metasurface enabled quantum edge detection",
-      "citedBy": 252
+      "citedBy": 253
     },
     {
       "title": "Two-dimensional optical spatial differentiation and high-contrast imaging",
@@ -25,7 +25,7 @@
     },
     {
       "title": "Ultrasensitive and real-time detection of chemical reaction rate based on the photonic spin Hall effect",
-      "citedBy": 153
+      "citedBy": 154
     },
     {
       "title": "Spatial differential operation and edge detection based on the geometric spin Hall effect of light",
@@ -161,7 +161,7 @@
     },
     {
       "title": "Varifocal Meta‐Lens for Multifunctional Focusing and Imaging",
-      "citedBy": 11
+      "citedBy": 12
     },
     {
       "title": "Compact photonic spin filters",
