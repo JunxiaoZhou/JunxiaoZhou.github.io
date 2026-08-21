@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3136
+    "all": 3141
   },
   "hIndex": {
     "all": 25
@@ -33,7 +33,7 @@
     },
     {
       "title": "Broadband photonic spin Hall meta-lens",
-      "citedBy": 130
+      "citedBy": 131
     },
     {
       "title": "Generation of Airy vortex and Airy vector beams based on the modulation of dynamic and geometric phases",
@@ -41,7 +41,7 @@
     },
     {
       "title": "Roadmap on electromagnetic metamaterials and metasurfaces",
-      "citedBy": 110
+      "citedBy": 111
     },
     {
       "title": "Goos–Hänchen effect enabled optical differential operation and image edge detection",
@@ -53,7 +53,7 @@
     },
     {
       "title": "Advanced Manufacturing of Dielectric Meta-devices",
-      "citedBy": 91
+      "citedBy": 92
     },
     {
       "title": "Fourier optical spin splitting microscopy",
@@ -148,6 +148,10 @@
       "citedBy": 14
     },
     {
+      "title": "Varifocal Meta‐Lens for Multifunctional Focusing and Imaging",
+      "citedBy": 13
+    },
+    {
       "title": "Advanced Quantitative Phase Microscopy Achieved with Spatial Multiplexing and a Metasurface",
       "citedBy": 13
     },
@@ -160,16 +164,12 @@
       "citedBy": 13
     },
     {
-      "title": "Varifocal Meta‐Lens for Multifunctional Focusing and Imaging",
-      "citedBy": 12
-    },
-    {
       "title": "Compact photonic spin filters",
       "citedBy": 9
     },
     {
       "title": "Challenges and opportunities of metalenses",
-      "citedBy": 6
+      "citedBy": 7
     },
     {
       "title": "Tunable topological phase transition in the telecommunication wavelength",
