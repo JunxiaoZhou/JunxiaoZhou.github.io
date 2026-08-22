@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3141
+    "all": 3143
   },
   "hIndex": {
     "all": 25
@@ -9,7 +9,7 @@
   "articles": [
     {
       "title": "Optical edge detection based on high-efficiency dielectric metasurface",
-      "citedBy": 530
+      "citedBy": 531
     },
     {
       "title": "Generation of perfect vortex and vector beams based on Pancharatnam-Berry phase elements",
@@ -109,7 +109,7 @@
     },
     {
       "title": "Visible and near-infrared dual band switchable metasurface edge imaging",
-      "citedBy": 23
+      "citedBy": 24
     },
     {
       "title": "Meta-Device for Field-of-View Tunability via Adaptive Optical Spatial Differentiation",
