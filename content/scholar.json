@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3143
+    "all": 3149
   },
   "hIndex": {
     "all": 25
@@ -9,7 +9,7 @@
   "articles": [
     {
       "title": "Optical edge detection based on high-efficiency dielectric metasurface",
-      "citedBy": 531
+      "citedBy": 532
     },
     {
       "title": "Generation of perfect vortex and vector beams based on Pancharatnam-Berry phase elements",
@@ -21,11 +21,11 @@
     },
     {
       "title": "Two-dimensional optical spatial differentiation and high-contrast imaging",
-      "citedBy": 182
+      "citedBy": 183
     },
     {
       "title": "Ultrasensitive and real-time detection of chemical reaction rate based on the photonic spin Hall effect",
-      "citedBy": 154
+      "citedBy": 155
     },
     {
       "title": "Spatial differential operation and edge detection based on the geometric spin Hall effect of light",
@@ -81,7 +81,7 @@
     },
     {
       "title": "Higher-order laser mode converters with dielectric metasurfaces",
-      "citedBy": 51
+      "citedBy": 52
     },
     {
       "title": "Measurements of Pancharatnam–Berry phase in mode transformations on hybrid-order Poincaré sphere",
@@ -120,12 +120,12 @@
       "citedBy": 22
     },
     {
-      "title": "Geometric phase Doppler effect: when structured light meets rotating structured materials",
+      "title": "Kerr metasurface enabled by metallic quantum wells",
       "citedBy": 21
     },
     {
-      "title": "Kerr metasurface enabled by metallic quantum wells",
-      "citedBy": 20
+      "title": "Geometric phase Doppler effect: when structured light meets rotating structured materials",
+      "citedBy": 21
     },
     {
       "title": "Photonic spin filter with dielectric metasurfaces",
@@ -144,12 +144,12 @@
       "citedBy": 16
     },
     {
-      "title": "Resonant Meta‐Lens in the Visible",
+      "title": "Varifocal Meta‐Lens for Multifunctional Focusing and Imaging",
       "citedBy": 14
     },
     {
-      "title": "Varifocal Meta‐Lens for Multifunctional Focusing and Imaging",
-      "citedBy": 13
+      "title": "Resonant Meta‐Lens in the Visible",
+      "citedBy": 14
     },
     {
       "title": "Advanced Quantitative Phase Microscopy Achieved with Spatial Multiplexing and a Metasurface",
