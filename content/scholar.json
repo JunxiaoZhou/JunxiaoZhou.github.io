@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3165
+    "all": 3168
   },
   "hIndex": {
     "all": 25
@@ -17,7 +17,7 @@
     },
     {
       "title": "Metasurface enabled quantum edge detection",
-      "citedBy": 255
+      "citedBy": 256
     },
     {
       "title": "Two-dimensional optical spatial differentiation and high-contrast imaging",
@@ -69,7 +69,7 @@
     },
     {
       "title": "Metasurface enabled high-order differentiator",
-      "citedBy": 66
+      "citedBy": 67
     },
     {
       "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
@@ -208,12 +208,12 @@
       "citedBy": 2
     },
     {
-      "title": "Spin-orbit interaction of light on the surface of atomically thin crystals",
+      "title": "Modified MXene Aerogel With Broadband Microwave Absorption Inspired by Melanophila Acuminata Beetle",
       "citedBy": 1
     },
     {
-      "title": "Modified MXene Aerogel With Broadband Microwave Absorption Inspired by Melanophila Acuminata Beetle",
-      "citedBy": 0
+      "title": "Spin-orbit interaction of light on the surface of atomically thin crystals",
+      "citedBy": 1
     },
     {
       "title": "Varifocal Alvarez metalens array for adaptive light-field imaging",
