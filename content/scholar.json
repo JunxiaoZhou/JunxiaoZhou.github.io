@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3168
+    "all": 3172
   },
   "hIndex": {
     "all": 25
@@ -69,7 +69,7 @@
     },
     {
       "title": "Metasurface enabled high-order differentiator",
-      "citedBy": 67
+      "citedBy": 69
     },
     {
       "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
@@ -96,12 +96,12 @@
       "citedBy": 32
     },
     {
-      "title": "Eagle‐Eye Inspired Meta‐Device for Phase Imaging",
+      "title": "A review on optical torques: from engineered light fields to objects",
       "citedBy": 31
     },
     {
-      "title": "A review on optical torques: from engineered light fields to objects",
-      "citedBy": 30
+      "title": "Eagle‐Eye Inspired Meta‐Device for Phase Imaging",
+      "citedBy": 31
     },
     {
       "title": "A spin controlled wavefront shaping metasurface with low dispersion in visible frequencies",
@@ -184,6 +184,10 @@
       "citedBy": 3
     },
     {
+      "title": "Giant optical second- and third- order nonlinearity at telecom wavelength",
+      "citedBy": 3
+    },
+    {
       "title": "Photonic spin-dependent wave shaping with metasurfaces: applications in edge detection",
       "citedBy": 3
     },
@@ -193,10 +197,6 @@
     },
     {
       "title": "Optical Topological Differentiation Cryptography",
-      "citedBy": 2
-    },
-    {
-      "title": "Giant optical second- and third- order nonlinearity at telecom wavelength",
       "citedBy": 2
     },
     {
