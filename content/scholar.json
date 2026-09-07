@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3172
+    "all": 3174
   },
   "hIndex": {
     "all": 25
@@ -41,7 +41,7 @@
     },
     {
       "title": "Roadmap on electromagnetic metamaterials and metasurfaces",
-      "citedBy": 111
+      "citedBy": 112
     },
     {
       "title": "Goos–Hänchen effect enabled optical differential operation and image edge detection",
@@ -212,12 +212,12 @@
       "citedBy": 1
     },
     {
-      "title": "Spin-orbit interaction of light on the surface of atomically thin crystals",
+      "title": "Varifocal Alvarez metalens array for adaptive light-field imaging",
       "citedBy": 1
     },
     {
-      "title": "Varifocal Alvarez metalens array for adaptive light-field imaging",
-      "citedBy": 0
+      "title": "Spin-orbit interaction of light on the surface of atomically thin crystals",
+      "citedBy": 1
     },
     {
       "title": "Multiwave Lateral Shearing Interferometry for Wavefront Optical Characterization of Metastructures",
