@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3174
+    "all": 3180
   },
   "hIndex": {
     "all": 25
@@ -9,7 +9,7 @@
   "articles": [
     {
       "title": "Optical edge detection based on high-efficiency dielectric metasurface",
-      "citedBy": 534
+      "citedBy": 535
     },
     {
       "title": "Generation of perfect vortex and vector beams based on Pancharatnam-Berry phase elements",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Metasurface enabled quantum edge detection",
-      "citedBy": 256
+      "citedBy": 257
     },
     {
       "title": "Two-dimensional optical spatial differentiation and high-contrast imaging",
@@ -25,7 +25,7 @@
     },
     {
       "title": "Ultrasensitive and real-time detection of chemical reaction rate based on the photonic spin Hall effect",
-      "citedBy": 155
+      "citedBy": 156
     },
     {
       "title": "Spatial differential operation and edge detection based on the geometric spin Hall effect of light",
@@ -69,7 +69,7 @@
     },
     {
       "title": "Metasurface enabled high-order differentiator",
-      "citedBy": 69
+      "citedBy": 70
     },
     {
       "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
@@ -152,11 +152,11 @@
       "citedBy": 14
     },
     {
-      "title": "Advanced Quantitative Phase Microscopy Achieved with Spatial Multiplexing and a Metasurface",
-      "citedBy": 13
+      "title": "Deep Learning Assisted Plasmonic Dark-Field Microscopy for Super-Resolution Label-Free Imaging",
+      "citedBy": 14
     },
     {
-      "title": "Deep Learning Assisted Plasmonic Dark-Field Microscopy for Super-Resolution Label-Free Imaging",
+      "title": "Advanced Quantitative Phase Microscopy Achieved with Spatial Multiplexing and a Metasurface",
       "citedBy": 13
     },
     {
@@ -196,6 +196,10 @@
       "citedBy": 3
     },
     {
+      "title": "Varifocal Alvarez metalens array for adaptive light-field imaging",
+      "citedBy": 2
+    },
+    {
       "title": "Optical Topological Differentiation Cryptography",
       "citedBy": 2
     },
@@ -209,10 +213,6 @@
     },
     {
       "title": "Modified MXene Aerogel With Broadband Microwave Absorption Inspired by Melanophila Acuminata Beetle",
-      "citedBy": 1
-    },
-    {
-      "title": "Varifocal Alvarez metalens array for adaptive light-field imaging",
       "citedBy": 1
     },
     {
