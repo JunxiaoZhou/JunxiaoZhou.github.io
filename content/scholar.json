@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3181
+    "all": 3186
   },
   "hIndex": {
     "all": 25
@@ -9,7 +9,7 @@
   "articles": [
     {
       "title": "Optical edge detection based on high-efficiency dielectric metasurface",
-      "citedBy": 535
+      "citedBy": 536
     },
     {
       "title": "Generation of perfect vortex and vector beams based on Pancharatnam-Berry phase elements",
@@ -57,7 +57,7 @@
     },
     {
       "title": "Fourier optical spin splitting microscopy",
-      "citedBy": 88
+      "citedBy": 89
     },
     {
       "title": "Optical analog computing of two-dimensional spatial differentiation based on the Brewster effect",
@@ -73,7 +73,7 @@
     },
     {
       "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
-      "citedBy": 63
+      "citedBy": 64
     },
     {
       "title": "Optical integration of Pancharatnam-Berry phase lens and dynamical phase lens",
@@ -88,16 +88,16 @@
       "citedBy": 36
     },
     {
+      "title": "A review on optical torques: from engineered light fields to objects",
+      "citedBy": 32
+    },
+    {
       "title": "Spin-dependent manipulating of vector beams by tailoring polarization",
       "citedBy": 32
     },
     {
       "title": "Realization of spin-dependent splitting with arbitrary intensity patterns based on all-dielectric metasurfaces",
       "citedBy": 32
-    },
-    {
-      "title": "A review on optical torques: from engineered light fields to objects",
-      "citedBy": 31
     },
     {
       "title": "Eagle‐Eye Inspired Meta‐Device for Phase Imaging",
@@ -172,12 +172,12 @@
       "citedBy": 7
     },
     {
-      "title": "Tunable topological phase transition in the telecommunication wavelength",
+      "title": "Plan meta-objective for sub-micron quantitative phase imaging",
       "citedBy": 6
     },
     {
-      "title": "Plan meta-objective for sub-micron quantitative phase imaging",
-      "citedBy": 5
+      "title": "Tunable topological phase transition in the telecommunication wavelength",
+      "citedBy": 6
     },
     {
       "title": "Infrared Color-Sorting Metasurface",
