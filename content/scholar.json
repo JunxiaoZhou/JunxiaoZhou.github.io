@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3186
+    "all": 3196
   },
   "hIndex": {
     "all": 25
@@ -13,7 +13,7 @@
     },
     {
       "title": "Generation of perfect vortex and vector beams based on Pancharatnam-Berry phase elements",
-      "citedBy": 262
+      "citedBy": 263
     },
     {
       "title": "Metasurface enabled quantum edge detection",
@@ -33,19 +33,19 @@
     },
     {
       "title": "Broadband photonic spin Hall meta-lens",
-      "citedBy": 131
+      "citedBy": 132
     },
     {
       "title": "Generation of Airy vortex and Airy vector beams based on the modulation of dynamic and geometric phases",
-      "citedBy": 121
+      "citedBy": 122
     },
     {
       "title": "Roadmap on electromagnetic metamaterials and metasurfaces",
-      "citedBy": 112
+      "citedBy": 113
     },
     {
       "title": "Goos–Hänchen effect enabled optical differential operation and image edge detection",
-      "citedBy": 105
+      "citedBy": 106
     },
     {
       "title": "Wavelength-independent optical fully differential operation based on the spin–orbit interaction of light",
@@ -57,11 +57,11 @@
     },
     {
       "title": "Fourier optical spin splitting microscopy",
-      "citedBy": 89
+      "citedBy": 90
     },
     {
       "title": "Optical analog computing of two-dimensional spatial differentiation based on the Brewster effect",
-      "citedBy": 86
+      "citedBy": 87
     },
     {
       "title": "Nonlinear computational edge detection metalens",
@@ -89,7 +89,7 @@
     },
     {
       "title": "A review on optical torques: from engineered light fields to objects",
-      "citedBy": 32
+      "citedBy": 33
     },
     {
       "title": "Spin-dependent manipulating of vector beams by tailoring polarization",
@@ -148,12 +148,12 @@
       "citedBy": 16
     },
     {
-      "title": "Deep Learning Assisted Plasmonic Dark-Field Microscopy for Super-Resolution Label-Free Imaging",
+      "title": "Resonant Meta‐Lens in the Visible",
       "citedBy": 15
     },
     {
-      "title": "Resonant Meta‐Lens in the Visible",
-      "citedBy": 14
+      "title": "Deep Learning Assisted Plasmonic Dark-Field Microscopy for Super-Resolution Label-Free Imaging",
+      "citedBy": 15
     },
     {
       "title": "Advanced Quantitative Phase Microscopy Achieved with Spatial Multiplexing and a Metasurface",
@@ -169,7 +169,7 @@
     },
     {
       "title": "Challenges and opportunities of metalenses",
-      "citedBy": 7
+      "citedBy": 8
     },
     {
       "title": "Plan meta-objective for sub-micron quantitative phase imaging",
