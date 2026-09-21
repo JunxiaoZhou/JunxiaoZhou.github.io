@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3211
+    "all": 3213
   },
   "hIndex": {
     "all": 25
@@ -9,7 +9,7 @@
   "articles": [
     {
       "title": "Optical edge detection based on high-efficiency dielectric metasurface",
-      "citedBy": 539
+      "citedBy": 540
     },
     {
       "title": "Generation of perfect vortex and vector beams based on Pancharatnam-Berry phase elements",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Metasurface enabled quantum edge detection",
-      "citedBy": 257
+      "citedBy": 258
     },
     {
       "title": "Two-dimensional optical spatial differentiation and high-contrast imaging",
