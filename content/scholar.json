@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3213
+    "all": 3215
   },
   "hIndex": {
     "all": 25
@@ -89,7 +89,7 @@
     },
     {
       "title": "A review on optical torques: from engineered light fields to objects",
-      "citedBy": 33
+      "citedBy": 34
     },
     {
       "title": "Spin-dependent manipulating of vector beams by tailoring polarization",
@@ -181,7 +181,7 @@
     },
     {
       "title": "Infrared Color-Sorting Metasurface",
-      "citedBy": 3
+      "citedBy": 4
     },
     {
       "title": "Giant optical second- and third- order nonlinearity at telecom wavelength",
