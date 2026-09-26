@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3215
+    "all": 3218
   },
   "hIndex": {
     "all": 25
@@ -41,7 +41,7 @@
     },
     {
       "title": "Roadmap on electromagnetic metamaterials and metasurfaces",
-      "citedBy": 116
+      "citedBy": 117
     },
     {
       "title": "Goos–Hänchen effect enabled optical differential operation and image edge detection",
@@ -140,12 +140,12 @@
       "citedBy": 17
     },
     {
-      "title": "Manipulating the spin-dependent splitting by geometric Doppler effect",
+      "title": "Deep Learning Assisted Plasmonic Dark-Field Microscopy for Super-Resolution Label-Free Imaging",
       "citedBy": 17
     },
     {
-      "title": "Deep Learning Assisted Plasmonic Dark-Field Microscopy for Super-Resolution Label-Free Imaging",
-      "citedBy": 16
+      "title": "Manipulating the spin-dependent splitting by geometric Doppler effect",
+      "citedBy": 17
     },
     {
       "title": "Speckle structured illumination endoscopy with enhanced resolution at wide field of view and depth of field",
@@ -184,6 +184,10 @@
       "citedBy": 4
     },
     {
+      "title": "Varifocal Alvarez metalens array for adaptive light-field imaging",
+      "citedBy": 3
+    },
+    {
       "title": "Giant optical second- and third- order nonlinearity at telecom wavelength",
       "citedBy": 3
     },
@@ -194,10 +198,6 @@
     {
       "title": "Spin-photonic devices based on optical integration of Pancharatnam-Berry phase elements",
       "citedBy": 3
-    },
-    {
-      "title": "Varifocal Alvarez metalens array for adaptive light-field imaging",
-      "citedBy": 2
     },
     {
       "title": "Optical Topological Differentiation Cryptography",
