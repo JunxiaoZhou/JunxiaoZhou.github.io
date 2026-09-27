@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3218
+    "all": 3223
   },
   "hIndex": {
     "all": 25
@@ -9,7 +9,7 @@
   "articles": [
     {
       "title": "Optical edge detection based on high-efficiency dielectric metasurface",
-      "citedBy": 540
+      "citedBy": 541
     },
     {
       "title": "Generation of perfect vortex and vector beams based on Pancharatnam-Berry phase elements",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Metasurface enabled quantum edge detection",
-      "citedBy": 258
+      "citedBy": 260
     },
     {
       "title": "Two-dimensional optical spatial differentiation and high-contrast imaging",
@@ -48,12 +48,12 @@
       "citedBy": 106
     },
     {
-      "title": "Wavelength-independent optical fully differential operation based on the spin–orbit interaction of light",
+      "title": "Advanced Manufacturing of Dielectric Meta-devices",
       "citedBy": 97
     },
     {
-      "title": "Advanced Manufacturing of Dielectric Meta-devices",
-      "citedBy": 96
+      "title": "Wavelength-independent optical fully differential operation based on the spin–orbit interaction of light",
+      "citedBy": 97
     },
     {
       "title": "Fourier optical spin splitting microscopy",
@@ -69,7 +69,7 @@
     },
     {
       "title": "Metasurface enabled high-order differentiator",
-      "citedBy": 72
+      "citedBy": 73
     },
     {
       "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
