@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3223
+    "all": 3227
   },
   "hIndex": {
     "all": 25
@@ -41,7 +41,7 @@
     },
     {
       "title": "Roadmap on electromagnetic metamaterials and metasurfaces",
-      "citedBy": 117
+      "citedBy": 118
     },
     {
       "title": "Goos–Hänchen effect enabled optical differential operation and image edge detection",
@@ -57,7 +57,7 @@
     },
     {
       "title": "Fourier optical spin splitting microscopy",
-      "citedBy": 90
+      "citedBy": 91
     },
     {
       "title": "Optical analog computing of two-dimensional spatial differentiation based on the Brewster effect",
@@ -128,15 +128,15 @@
       "citedBy": 21
     },
     {
+      "title": "Tunable meta-device for large depth of field quantitative phase imaging",
+      "citedBy": 18
+    },
+    {
       "title": "Photonic spin filter with dielectric metasurfaces",
       "citedBy": 18
     },
     {
       "title": "Varifocal Meta‐Lens for Multifunctional Focusing and Imaging",
-      "citedBy": 17
-    },
-    {
-      "title": "Tunable meta-device for large depth of field quantitative phase imaging",
       "citedBy": 17
     },
     {
@@ -173,7 +173,7 @@
     },
     {
       "title": "Plan meta-objective for sub-micron quantitative phase imaging",
-      "citedBy": 6
+      "citedBy": 7
     },
     {
       "title": "Tunable topological phase transition in the telecommunication wavelength",
