@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3227
+    "all": 3233
   },
   "hIndex": {
     "all": 25
@@ -9,11 +9,11 @@
   "articles": [
     {
       "title": "Optical edge detection based on high-efficiency dielectric metasurface",
-      "citedBy": 541
+      "citedBy": 542
     },
     {
       "title": "Generation of perfect vortex and vector beams based on Pancharatnam-Berry phase elements",
-      "citedBy": 263
+      "citedBy": 264
     },
     {
       "title": "Metasurface enabled quantum edge detection",
@@ -69,7 +69,7 @@
     },
     {
       "title": "Metasurface enabled high-order differentiator",
-      "citedBy": 73
+      "citedBy": 74
     },
     {
       "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
@@ -89,7 +89,7 @@
     },
     {
       "title": "A review on optical torques: from engineered light fields to objects",
-      "citedBy": 34
+      "citedBy": 35
     },
     {
       "title": "Spin-dependent manipulating of vector beams by tailoring polarization",
@@ -112,16 +112,16 @@
       "citedBy": 24
     },
     {
+      "title": "Meta-Device for Field-of-View Tunability via Adaptive Optical Spatial Differentiation",
+      "citedBy": 23
+    },
+    {
       "title": "Super resolution label-free dark-field microscopy by deep learning",
       "citedBy": 23
     },
     {
-      "title": "Meta-Device for Field-of-View Tunability via Adaptive Optical Spatial Differentiation",
-      "citedBy": 22
-    },
-    {
       "title": "Kerr metasurface enabled by metallic quantum wells",
-      "citedBy": 21
+      "citedBy": 22
     },
     {
       "title": "Geometric phase Doppler effect: when structured light meets rotating structured materials",
