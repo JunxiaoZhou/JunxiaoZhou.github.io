@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3233
+    "all": 3239
   },
   "hIndex": {
     "all": 25
@@ -17,7 +17,7 @@
     },
     {
       "title": "Metasurface enabled quantum edge detection",
-      "citedBy": 260
+      "citedBy": 261
     },
     {
       "title": "Two-dimensional optical spatial differentiation and high-contrast imaging",
@@ -29,7 +29,7 @@
     },
     {
       "title": "Spatial differential operation and edge detection based on the geometric spin Hall effect of light",
-      "citedBy": 141
+      "citedBy": 142
     },
     {
       "title": "Broadband photonic spin Hall meta-lens",
@@ -37,7 +37,7 @@
     },
     {
       "title": "Generation of Airy vortex and Airy vector beams based on the modulation of dynamic and geometric phases",
-      "citedBy": 122
+      "citedBy": 123
     },
     {
       "title": "Roadmap on electromagnetic metamaterials and metasurfaces",
@@ -61,7 +61,7 @@
     },
     {
       "title": "Optical analog computing of two-dimensional spatial differentiation based on the Brewster effect",
-      "citedBy": 87
+      "citedBy": 88
     },
     {
       "title": "Nonlinear computational edge detection metalens",
@@ -69,7 +69,7 @@
     },
     {
       "title": "Metasurface enabled high-order differentiator",
-      "citedBy": 74
+      "citedBy": 75
     },
     {
       "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
@@ -104,12 +104,12 @@
       "citedBy": 31
     },
     {
-      "title": "A spin controlled wavefront shaping metasurface with low dispersion in visible frequencies",
+      "title": "Visible and near-infrared dual band switchable metasurface edge imaging",
       "citedBy": 25
     },
     {
-      "title": "Visible and near-infrared dual band switchable metasurface edge imaging",
-      "citedBy": 24
+      "title": "A spin controlled wavefront shaping metasurface with low dispersion in visible frequencies",
+      "citedBy": 25
     },
     {
       "title": "Meta-Device for Field-of-View Tunability via Adaptive Optical Spatial Differentiation",
@@ -153,7 +153,7 @@
     },
     {
       "title": "Resonant Meta‐Lens in the Visible",
-      "citedBy": 15
+      "citedBy": 14
     },
     {
       "title": "Advanced Quantitative Phase Microscopy Achieved with Spatial Multiplexing and a Metasurface",
@@ -164,12 +164,12 @@
       "citedBy": 13
     },
     {
-      "title": "Compact photonic spin filters",
+      "title": "Challenges and opportunities of metalenses",
       "citedBy": 9
     },
     {
-      "title": "Challenges and opportunities of metalenses",
-      "citedBy": 8
+      "title": "Compact photonic spin filters",
+      "citedBy": 9
     },
     {
       "title": "Plan meta-objective for sub-micron quantitative phase imaging",
