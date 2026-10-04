@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3239
+    "all": 3242
   },
   "hIndex": {
     "all": 25
@@ -37,7 +37,7 @@
     },
     {
       "title": "Generation of Airy vortex and Airy vector beams based on the modulation of dynamic and geometric phases",
-      "citedBy": 123
+      "citedBy": 122
     },
     {
       "title": "Roadmap on electromagnetic metamaterials and metasurfaces",
@@ -132,15 +132,15 @@
       "citedBy": 18
     },
     {
+      "title": "Deep Learning Assisted Plasmonic Dark-Field Microscopy for Super-Resolution Label-Free Imaging",
+      "citedBy": 18
+    },
+    {
       "title": "Photonic spin filter with dielectric metasurfaces",
       "citedBy": 18
     },
     {
       "title": "Varifocal Meta‐Lens for Multifunctional Focusing and Imaging",
-      "citedBy": 17
-    },
-    {
-      "title": "Deep Learning Assisted Plasmonic Dark-Field Microscopy for Super-Resolution Label-Free Imaging",
       "citedBy": 17
     },
     {
@@ -153,7 +153,7 @@
     },
     {
       "title": "Resonant Meta‐Lens in the Visible",
-      "citedBy": 14
+      "citedBy": 15
     },
     {
       "title": "Advanced Quantitative Phase Microscopy Achieved with Spatial Multiplexing and a Metasurface",
@@ -180,16 +180,16 @@
       "citedBy": 6
     },
     {
+      "title": "Varifocal Alvarez metalens array for adaptive light-field imaging",
+      "citedBy": 4
+    },
+    {
       "title": "Infrared Color-Sorting Metasurface",
       "citedBy": 4
     },
     {
-      "title": "Varifocal Alvarez metalens array for adaptive light-field imaging",
-      "citedBy": 3
-    },
-    {
       "title": "Giant optical second- and third- order nonlinearity at telecom wavelength",
-      "citedBy": 3
+      "citedBy": 4
     },
     {
       "title": "Photonic spin-dependent wave shaping with metasurfaces: applications in edge detection",
