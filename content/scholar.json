@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3242
+    "all": 3245
   },
   "hIndex": {
     "all": 25
@@ -9,7 +9,7 @@
   "articles": [
     {
       "title": "Optical edge detection based on high-efficiency dielectric metasurface",
-      "citedBy": 542
+      "citedBy": 543
     },
     {
       "title": "Generation of perfect vortex and vector beams based on Pancharatnam-Berry phase elements",
@@ -37,7 +37,7 @@
     },
     {
       "title": "Generation of Airy vortex and Airy vector beams based on the modulation of dynamic and geometric phases",
-      "citedBy": 122
+      "citedBy": 123
     },
     {
       "title": "Roadmap on electromagnetic metamaterials and metasurfaces",
@@ -49,7 +49,7 @@
     },
     {
       "title": "Advanced Manufacturing of Dielectric Meta-devices",
-      "citedBy": 97
+      "citedBy": 98
     },
     {
       "title": "Wavelength-independent optical fully differential operation based on the spin–orbit interaction of light",
@@ -89,7 +89,7 @@
     },
     {
       "title": "A review on optical torques: from engineered light fields to objects",
-      "citedBy": 35
+      "citedBy": 34
     },
     {
       "title": "Spin-dependent manipulating of vector beams by tailoring polarization",
@@ -192,16 +192,16 @@
       "citedBy": 4
     },
     {
+      "title": "Optical Topological Differentiation Cryptography",
+      "citedBy": 3
+    },
+    {
       "title": "Photonic spin-dependent wave shaping with metasurfaces: applications in edge detection",
       "citedBy": 3
     },
     {
       "title": "Spin-photonic devices based on optical integration of Pancharatnam-Berry phase elements",
       "citedBy": 3
-    },
-    {
-      "title": "Optical Topological Differentiation Cryptography",
-      "citedBy": 2
     },
     {
       "title": "Inverse design of metasurface based off-axis image relay",
