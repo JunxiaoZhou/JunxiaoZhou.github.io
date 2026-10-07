@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3245
+    "all": 3248
   },
   "hIndex": {
     "all": 25
@@ -41,7 +41,7 @@
     },
     {
       "title": "Roadmap on electromagnetic metamaterials and metasurfaces",
-      "citedBy": 118
+      "citedBy": 117
     },
     {
       "title": "Goos–Hänchen effect enabled optical differential operation and image edge detection",
@@ -73,7 +73,7 @@
     },
     {
       "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
-      "citedBy": 64
+      "citedBy": 65
     },
     {
       "title": "Optical integration of Pancharatnam-Berry phase lens and dynamical phase lens",
@@ -89,7 +89,7 @@
     },
     {
       "title": "A review on optical torques: from engineered light fields to objects",
-      "citedBy": 34
+      "citedBy": 35
     },
     {
       "title": "Spin-dependent manipulating of vector beams by tailoring polarization",
@@ -157,7 +157,7 @@
     },
     {
       "title": "Advanced Quantitative Phase Microscopy Achieved with Spatial Multiplexing and a Metasurface",
-      "citedBy": 13
+      "citedBy": 14
     },
     {
       "title": "Tunable dielectric BIC metasurface for high resolution optical filters",
@@ -173,7 +173,7 @@
     },
     {
       "title": "Plan meta-objective for sub-micron quantitative phase imaging",
-      "citedBy": 7
+      "citedBy": 8
     },
     {
       "title": "Tunable topological phase transition in the telecommunication wavelength",
