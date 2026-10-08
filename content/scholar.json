@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3248
+    "all": 3247
   },
   "hIndex": {
     "all": 25
@@ -41,7 +41,7 @@
     },
     {
       "title": "Roadmap on electromagnetic metamaterials and metasurfaces",
-      "citedBy": 117
+      "citedBy": 118
     },
     {
       "title": "Goos–Hänchen effect enabled optical differential operation and image edge detection",
@@ -157,7 +157,7 @@
     },
     {
       "title": "Advanced Quantitative Phase Microscopy Achieved with Spatial Multiplexing and a Metasurface",
-      "citedBy": 14
+      "citedBy": 13
     },
     {
       "title": "Tunable dielectric BIC metasurface for high resolution optical filters",
@@ -173,7 +173,7 @@
     },
     {
       "title": "Plan meta-objective for sub-micron quantitative phase imaging",
-      "citedBy": 8
+      "citedBy": 7
     },
     {
       "title": "Tunable topological phase transition in the telecommunication wavelength",
