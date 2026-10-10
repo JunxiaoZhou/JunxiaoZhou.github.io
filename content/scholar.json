@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3247
+    "all": 3252
   },
   "hIndex": {
     "all": 25
@@ -17,7 +17,7 @@
     },
     {
       "title": "Metasurface enabled quantum edge detection",
-      "citedBy": 261
+      "citedBy": 262
     },
     {
       "title": "Two-dimensional optical spatial differentiation and high-contrast imaging",
@@ -37,7 +37,7 @@
     },
     {
       "title": "Generation of Airy vortex and Airy vector beams based on the modulation of dynamic and geometric phases",
-      "citedBy": 123
+      "citedBy": 124
     },
     {
       "title": "Roadmap on electromagnetic metamaterials and metasurfaces",
@@ -157,7 +157,7 @@
     },
     {
       "title": "Advanced Quantitative Phase Microscopy Achieved with Spatial Multiplexing and a Metasurface",
-      "citedBy": 13
+      "citedBy": 14
     },
     {
       "title": "Tunable dielectric BIC metasurface for high resolution optical filters",
@@ -173,7 +173,7 @@
     },
     {
       "title": "Plan meta-objective for sub-micron quantitative phase imaging",
-      "citedBy": 7
+      "citedBy": 8
     },
     {
       "title": "Tunable topological phase transition in the telecommunication wavelength",
@@ -204,16 +204,16 @@
       "citedBy": 3
     },
     {
+      "title": "Modified MXene Aerogel With Broadband Microwave Absorption Inspired by Melanophila Acuminata Beetle",
+      "citedBy": 2
+    },
+    {
       "title": "Inverse design of metasurface based off-axis image relay",
       "citedBy": 2
     },
     {
       "title": "Broadband optical fully differential operation based on the spin-orbit interaction of light",
       "citedBy": 2
-    },
-    {
-      "title": "Modified MXene Aerogel With Broadband Microwave Absorption Inspired by Melanophila Acuminata Beetle",
-      "citedBy": 1
     },
     {
       "title": "Spin-orbit interaction of light on the surface of atomically thin crystals",
