@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3250
+    "all": 3252
   },
   "hIndex": {
     "all": 25
@@ -17,7 +17,7 @@
     },
     {
       "title": "Metasurface enabled quantum edge detection",
-      "citedBy": 262
+      "citedBy": 263
     },
     {
       "title": "Two-dimensional optical spatial differentiation and high-contrast imaging",
@@ -41,7 +41,7 @@
     },
     {
       "title": "Roadmap on electromagnetic metamaterials and metasurfaces",
-      "citedBy": 118
+      "citedBy": 119
     },
     {
       "title": "Goos–Hänchen effect enabled optical differential operation and image edge detection",
