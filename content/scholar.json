@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3252
+    "all": 3254
   },
   "hIndex": {
     "all": 25
@@ -69,7 +69,7 @@
     },
     {
       "title": "Metasurface enabled high-order differentiator",
-      "citedBy": 75
+      "citedBy": 76
     },
     {
       "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
@@ -128,11 +128,11 @@
       "citedBy": 21
     },
     {
-      "title": "Tunable meta-device for large depth of field quantitative phase imaging",
-      "citedBy": 18
+      "title": "Deep Learning Assisted Plasmonic Dark-Field Microscopy for Super-Resolution Label-Free Imaging",
+      "citedBy": 19
     },
     {
-      "title": "Deep Learning Assisted Plasmonic Dark-Field Microscopy for Super-Resolution Label-Free Imaging",
+      "title": "Tunable meta-device for large depth of field quantitative phase imaging",
       "citedBy": 18
     },
     {
