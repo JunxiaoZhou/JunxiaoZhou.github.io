@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3254
+    "all": 3259
   },
   "hIndex": {
     "all": 25
@@ -17,7 +17,7 @@
     },
     {
       "title": "Metasurface enabled quantum edge detection",
-      "citedBy": 263
+      "citedBy": 262
     },
     {
       "title": "Two-dimensional optical spatial differentiation and high-contrast imaging",
@@ -33,11 +33,11 @@
     },
     {
       "title": "Broadband photonic spin Hall meta-lens",
-      "citedBy": 131
+      "citedBy": 132
     },
     {
       "title": "Generation of Airy vortex and Airy vector beams based on the modulation of dynamic and geometric phases",
-      "citedBy": 123
+      "citedBy": 124
     },
     {
       "title": "Roadmap on electromagnetic metamaterials and metasurfaces",
@@ -69,11 +69,11 @@
     },
     {
       "title": "Metasurface enabled high-order differentiator",
-      "citedBy": 76
+      "citedBy": 77
     },
     {
       "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
-      "citedBy": 65
+      "citedBy": 66
     },
     {
       "title": "Optical integration of Pancharatnam-Berry phase lens and dynamical phase lens",
@@ -165,7 +165,7 @@
     },
     {
       "title": "Challenges and opportunities of metalenses",
-      "citedBy": 9
+      "citedBy": 10
     },
     {
       "title": "Compact photonic spin filters",
@@ -181,7 +181,7 @@
     },
     {
       "title": "Varifocal Alvarez metalens array for adaptive light-field imaging",
-      "citedBy": 4
+      "citedBy": 5
     },
     {
       "title": "Infrared Color-Sorting Metasurface",
