@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3259
+    "all": 3262
   },
   "hIndex": {
     "all": 25
@@ -17,7 +17,7 @@
     },
     {
       "title": "Metasurface enabled quantum edge detection",
-      "citedBy": 262
+      "citedBy": 263
     },
     {
       "title": "Two-dimensional optical spatial differentiation and high-contrast imaging",
@@ -69,7 +69,7 @@
     },
     {
       "title": "Metasurface enabled high-order differentiator",
-      "citedBy": 77
+      "citedBy": 78
     },
     {
       "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
@@ -129,7 +129,7 @@
     },
     {
       "title": "Deep Learning Assisted Plasmonic Dark-Field Microscopy for Super-Resolution Label-Free Imaging",
-      "citedBy": 19
+      "citedBy": 20
     },
     {
       "title": "Tunable meta-device for large depth of field quantitative phase imaging",
