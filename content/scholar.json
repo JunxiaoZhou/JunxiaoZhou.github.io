@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3262
+    "all": 3270
   },
   "hIndex": {
     "all": 25
@@ -12,12 +12,12 @@
       "citedBy": 543
     },
     {
-      "title": "Generation of perfect vortex and vector beams based on Pancharatnam-Berry phase elements",
+      "title": "Metasurface enabled quantum edge detection",
       "citedBy": 264
     },
     {
-      "title": "Metasurface enabled quantum edge detection",
-      "citedBy": 263
+      "title": "Generation of perfect vortex and vector beams based on Pancharatnam-Berry phase elements",
+      "citedBy": 264
     },
     {
       "title": "Two-dimensional optical spatial differentiation and high-contrast imaging",
@@ -41,7 +41,7 @@
     },
     {
       "title": "Roadmap on electromagnetic metamaterials and metasurfaces",
-      "citedBy": 119
+      "citedBy": 121
     },
     {
       "title": "Goos–Hänchen effect enabled optical differential operation and image edge detection",
@@ -49,7 +49,7 @@
     },
     {
       "title": "Advanced Manufacturing of Dielectric Meta-devices",
-      "citedBy": 98
+      "citedBy": 100
     },
     {
       "title": "Wavelength-independent optical fully differential operation based on the spin–orbit interaction of light",
@@ -84,12 +84,12 @@
       "citedBy": 52
     },
     {
-      "title": "Measurements of Pancharatnam–Berry phase in mode transformations on hybrid-order Poincaré sphere",
+      "title": "A review on optical torques: from engineered light fields to objects",
       "citedBy": 36
     },
     {
-      "title": "A review on optical torques: from engineered light fields to objects",
-      "citedBy": 35
+      "title": "Measurements of Pancharatnam–Berry phase in mode transformations on hybrid-order Poincaré sphere",
+      "citedBy": 36
     },
     {
       "title": "Spin-dependent manipulating of vector beams by tailoring polarization",
@@ -124,12 +124,16 @@
       "citedBy": 22
     },
     {
+      "title": "Deep Learning Assisted Plasmonic Dark-Field Microscopy for Super-Resolution Label-Free Imaging",
+      "citedBy": 21
+    },
+    {
       "title": "Geometric phase Doppler effect: when structured light meets rotating structured materials",
       "citedBy": 21
     },
     {
-      "title": "Deep Learning Assisted Plasmonic Dark-Field Microscopy for Super-Resolution Label-Free Imaging",
-      "citedBy": 20
+      "title": "Varifocal Meta‐Lens for Multifunctional Focusing and Imaging",
+      "citedBy": 19
     },
     {
       "title": "Tunable meta-device for large depth of field quantitative phase imaging",
@@ -140,24 +144,20 @@
       "citedBy": 18
     },
     {
-      "title": "Varifocal Meta‐Lens for Multifunctional Focusing and Imaging",
+      "title": "Manipulating the spin-dependent splitting by geometric Doppler effect",
       "citedBy": 17
     },
     {
-      "title": "Manipulating the spin-dependent splitting by geometric Doppler effect",
-      "citedBy": 17
+      "title": "Resonant Meta‐Lens in the Visible",
+      "citedBy": 16
     },
     {
       "title": "Speckle structured illumination endoscopy with enhanced resolution at wide field of view and depth of field",
       "citedBy": 16
     },
     {
-      "title": "Resonant Meta‐Lens in the Visible",
-      "citedBy": 15
-    },
-    {
       "title": "Advanced Quantitative Phase Microscopy Achieved with Spatial Multiplexing and a Metasurface",
-      "citedBy": 14
+      "citedBy": 13
     },
     {
       "title": "Tunable dielectric BIC metasurface for high resolution optical filters",
@@ -173,7 +173,7 @@
     },
     {
       "title": "Plan meta-objective for sub-micron quantitative phase imaging",
-      "citedBy": 8
+      "citedBy": 7
     },
     {
       "title": "Tunable topological phase transition in the telecommunication wavelength",
