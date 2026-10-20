@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3270
+    "all": 3273
   },
   "hIndex": {
     "all": 25
@@ -41,11 +41,11 @@
     },
     {
       "title": "Roadmap on electromagnetic metamaterials and metasurfaces",
-      "citedBy": 121
+      "citedBy": 122
     },
     {
       "title": "Goos–Hänchen effect enabled optical differential operation and image edge detection",
-      "citedBy": 106
+      "citedBy": 107
     },
     {
       "title": "Advanced Manufacturing of Dielectric Meta-devices",
@@ -92,11 +92,11 @@
       "citedBy": 36
     },
     {
-      "title": "Spin-dependent manipulating of vector beams by tailoring polarization",
-      "citedBy": 32
+      "title": "Realization of spin-dependent splitting with arbitrary intensity patterns based on all-dielectric metasurfaces",
+      "citedBy": 33
     },
     {
-      "title": "Realization of spin-dependent splitting with arbitrary intensity patterns based on all-dielectric metasurfaces",
+      "title": "Spin-dependent manipulating of vector beams by tailoring polarization",
       "citedBy": 32
     },
     {
