@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3273
+    "all": 3272
   },
   "hIndex": {
     "all": 25
@@ -33,11 +33,11 @@
     },
     {
       "title": "Broadband photonic spin Hall meta-lens",
-      "citedBy": 132
+      "citedBy": 131
     },
     {
       "title": "Generation of Airy vortex and Airy vector beams based on the modulation of dynamic and geometric phases",
-      "citedBy": 124
+      "citedBy": 123
     },
     {
       "title": "Roadmap on electromagnetic metamaterials and metasurfaces",
@@ -64,12 +64,12 @@
       "citedBy": 88
     },
     {
-      "title": "Nonlinear computational edge detection metalens",
+      "title": "Metasurface enabled high-order differentiator",
       "citedBy": 79
     },
     {
-      "title": "Metasurface enabled high-order differentiator",
-      "citedBy": 78
+      "title": "Nonlinear computational edge detection metalens",
+      "citedBy": 79
     },
     {
       "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
@@ -148,16 +148,16 @@
       "citedBy": 17
     },
     {
-      "title": "Resonant Meta‐Lens in the Visible",
-      "citedBy": 16
-    },
-    {
       "title": "Speckle structured illumination endoscopy with enhanced resolution at wide field of view and depth of field",
       "citedBy": 16
     },
     {
+      "title": "Resonant Meta‐Lens in the Visible",
+      "citedBy": 15
+    },
+    {
       "title": "Advanced Quantitative Phase Microscopy Achieved with Spatial Multiplexing and a Metasurface",
-      "citedBy": 13
+      "citedBy": 14
     },
     {
       "title": "Tunable dielectric BIC metasurface for high resolution optical filters",
