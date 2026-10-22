@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3272
+    "all": 3281
   },
   "hIndex": {
     "all": 25
@@ -9,11 +9,11 @@
   "articles": [
     {
       "title": "Optical edge detection based on high-efficiency dielectric metasurface",
-      "citedBy": 543
+      "citedBy": 544
     },
     {
       "title": "Metasurface enabled quantum edge detection",
-      "citedBy": 264
+      "citedBy": 265
     },
     {
       "title": "Generation of perfect vortex and vector beams based on Pancharatnam-Berry phase elements",
@@ -25,7 +25,7 @@
     },
     {
       "title": "Ultrasensitive and real-time detection of chemical reaction rate based on the photonic spin Hall effect",
-      "citedBy": 156
+      "citedBy": 157
     },
     {
       "title": "Spatial differential operation and edge detection based on the geometric spin Hall effect of light",
@@ -33,11 +33,11 @@
     },
     {
       "title": "Broadband photonic spin Hall meta-lens",
-      "citedBy": 131
+      "citedBy": 132
     },
     {
       "title": "Generation of Airy vortex and Airy vector beams based on the modulation of dynamic and geometric phases",
-      "citedBy": 123
+      "citedBy": 124
     },
     {
       "title": "Roadmap on electromagnetic metamaterials and metasurfaces",
@@ -57,11 +57,11 @@
     },
     {
       "title": "Fourier optical spin splitting microscopy",
-      "citedBy": 91
+      "citedBy": 92
     },
     {
       "title": "Optical analog computing of two-dimensional spatial differentiation based on the Brewster effect",
-      "citedBy": 88
+      "citedBy": 89
     },
     {
       "title": "Metasurface enabled high-order differentiator",
@@ -132,12 +132,12 @@
       "citedBy": 21
     },
     {
-      "title": "Varifocal Meta‐Lens for Multifunctional Focusing and Imaging",
-      "citedBy": 19
+      "title": "Tunable meta-device for large depth of field quantitative phase imaging",
+      "citedBy": 20
     },
     {
-      "title": "Tunable meta-device for large depth of field quantitative phase imaging",
-      "citedBy": 18
+      "title": "Varifocal Meta‐Lens for Multifunctional Focusing and Imaging",
+      "citedBy": 19
     },
     {
       "title": "Photonic spin filter with dielectric metasurfaces",
