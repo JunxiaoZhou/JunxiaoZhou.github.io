@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3282
+    "all": 3284
   },
   "hIndex": {
     "all": 25
@@ -112,20 +112,20 @@
       "citedBy": 25
     },
     {
+      "title": "Super resolution label-free dark-field microscopy by deep learning",
+      "citedBy": 24
+    },
+    {
       "title": "Meta-Device for Field-of-View Tunability via Adaptive Optical Spatial Differentiation",
       "citedBy": 23
     },
     {
-      "title": "Super resolution label-free dark-field microscopy by deep learning",
-      "citedBy": 23
+      "title": "Deep Learning Assisted Plasmonic Dark-Field Microscopy for Super-Resolution Label-Free Imaging",
+      "citedBy": 22
     },
     {
       "title": "Kerr metasurface enabled by metallic quantum wells",
       "citedBy": 22
-    },
-    {
-      "title": "Deep Learning Assisted Plasmonic Dark-Field Microscopy for Super-Resolution Label-Free Imaging",
-      "citedBy": 21
     },
     {
       "title": "Geometric phase Doppler effect: when structured light meets rotating structured materials",
