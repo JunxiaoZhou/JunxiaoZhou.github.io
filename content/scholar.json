@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3284
+    "all": 3281
   },
   "hIndex": {
     "all": 25
@@ -9,7 +9,7 @@
   "articles": [
     {
       "title": "Optical edge detection based on high-efficiency dielectric metasurface",
-      "citedBy": 544
+      "citedBy": 543
     },
     {
       "title": "Metasurface enabled quantum edge detection",
@@ -21,11 +21,11 @@
     },
     {
       "title": "Two-dimensional optical spatial differentiation and high-contrast imaging",
-      "citedBy": 186
+      "citedBy": 185
     },
     {
       "title": "Ultrasensitive and real-time detection of chemical reaction rate based on the photonic spin Hall effect",
-      "citedBy": 157
+      "citedBy": 156
     },
     {
       "title": "Spatial differential operation and edge detection based on the geometric spin Hall effect of light",
@@ -33,14 +33,14 @@
     },
     {
       "title": "Broadband photonic spin Hall meta-lens",
-      "citedBy": 132
-    },
-    {
-      "title": "Generation of Airy vortex and Airy vector beams based on the modulation of dynamic and geometric phases",
-      "citedBy": 124
+      "citedBy": 131
     },
     {
       "title": "Roadmap on electromagnetic metamaterials and metasurfaces",
+      "citedBy": 123
+    },
+    {
+      "title": "Generation of Airy vortex and Airy vector beams based on the modulation of dynamic and geometric phases",
       "citedBy": 123
     },
     {
@@ -105,7 +105,7 @@
     },
     {
       "title": "Visible and near-infrared dual band switchable metasurface edge imaging",
-      "citedBy": 25
+      "citedBy": 27
     },
     {
       "title": "A spin controlled wavefront shaping metasurface with low dispersion in visible frequencies",
