@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3281
+    "all": 3291
   },
   "hIndex": {
     "all": 25
@@ -9,11 +9,11 @@
   "articles": [
     {
       "title": "Optical edge detection based on high-efficiency dielectric metasurface",
-      "citedBy": 543
+      "citedBy": 544
     },
     {
       "title": "Metasurface enabled quantum edge detection",
-      "citedBy": 265
+      "citedBy": 266
     },
     {
       "title": "Generation of perfect vortex and vector beams based on Pancharatnam-Berry phase elements",
@@ -21,7 +21,7 @@
     },
     {
       "title": "Two-dimensional optical spatial differentiation and high-contrast imaging",
-      "citedBy": 185
+      "citedBy": 186
     },
     {
       "title": "Ultrasensitive and real-time detection of chemical reaction rate based on the photonic spin Hall effect",
@@ -45,7 +45,7 @@
     },
     {
       "title": "Goos–Hänchen effect enabled optical differential operation and image edge detection",
-      "citedBy": 107
+      "citedBy": 108
     },
     {
       "title": "Advanced Manufacturing of Dielectric Meta-devices",
@@ -57,15 +57,15 @@
     },
     {
       "title": "Fourier optical spin splitting microscopy",
-      "citedBy": 92
+      "citedBy": 93
     },
     {
       "title": "Optical analog computing of two-dimensional spatial differentiation based on the Brewster effect",
-      "citedBy": 89
+      "citedBy": 90
     },
     {
       "title": "Metasurface enabled high-order differentiator",
-      "citedBy": 79
+      "citedBy": 80
     },
     {
       "title": "Nonlinear computational edge detection metalens",
@@ -73,7 +73,7 @@
     },
     {
       "title": "Single-shot quantitative amplitude and phase imaging based on a pair of all-dielectric metasurfaces",
-      "citedBy": 66
+      "citedBy": 67
     },
     {
       "title": "Optical integration of Pancharatnam-Berry phase lens and dynamical phase lens",
@@ -121,7 +121,7 @@
     },
     {
       "title": "Deep Learning Assisted Plasmonic Dark-Field Microscopy for Super-Resolution Label-Free Imaging",
-      "citedBy": 22
+      "citedBy": 23
     },
     {
       "title": "Kerr metasurface enabled by metallic quantum wells",
@@ -148,12 +148,12 @@
       "citedBy": 17
     },
     {
-      "title": "Speckle structured illumination endoscopy with enhanced resolution at wide field of view and depth of field",
+      "title": "Resonant Meta‐Lens in the Visible",
       "citedBy": 16
     },
     {
-      "title": "Resonant Meta‐Lens in the Visible",
-      "citedBy": 15
+      "title": "Speckle structured illumination endoscopy with enhanced resolution at wide field of view and depth of field",
+      "citedBy": 16
     },
     {
       "title": "Advanced Quantitative Phase Microscopy Achieved with Spatial Multiplexing and a Metasurface",
