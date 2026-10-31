@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3291
+    "all": 3297
   },
   "hIndex": {
     "all": 25
@@ -21,7 +21,7 @@
     },
     {
       "title": "Two-dimensional optical spatial differentiation and high-contrast imaging",
-      "citedBy": 186
+      "citedBy": 187
     },
     {
       "title": "Ultrasensitive and real-time detection of chemical reaction rate based on the photonic spin Hall effect",
@@ -29,7 +29,7 @@
     },
     {
       "title": "Spatial differential operation and edge detection based on the geometric spin Hall effect of light",
-      "citedBy": 142
+      "citedBy": 143
     },
     {
       "title": "Broadband photonic spin Hall meta-lens",
@@ -37,7 +37,7 @@
     },
     {
       "title": "Roadmap on electromagnetic metamaterials and metasurfaces",
-      "citedBy": 123
+      "citedBy": 124
     },
     {
       "title": "Generation of Airy vortex and Airy vector beams based on the modulation of dynamic and geometric phases",
@@ -61,11 +61,11 @@
     },
     {
       "title": "Optical analog computing of two-dimensional spatial differentiation based on the Brewster effect",
-      "citedBy": 90
+      "citedBy": 91
     },
     {
       "title": "Metasurface enabled high-order differentiator",
-      "citedBy": 80
+      "citedBy": 81
     },
     {
       "title": "Nonlinear computational edge detection metalens",
@@ -184,16 +184,16 @@
       "citedBy": 5
     },
     {
+      "title": "Optical Topological Differentiation Cryptography",
+      "citedBy": 4
+    },
+    {
       "title": "Infrared Color-Sorting Metasurface",
       "citedBy": 4
     },
     {
       "title": "Giant optical second- and third- order nonlinearity at telecom wavelength",
       "citedBy": 4
-    },
-    {
-      "title": "Optical Topological Differentiation Cryptography",
-      "citedBy": 3
     },
     {
       "title": "Photonic spin-dependent wave shaping with metasurfaces: applications in edge detection",
