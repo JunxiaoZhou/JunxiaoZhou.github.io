@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3297
+    "all": 3300
   },
   "hIndex": {
     "all": 25
@@ -9,7 +9,7 @@
   "articles": [
     {
       "title": "Optical edge detection based on high-efficiency dielectric metasurface",
-      "citedBy": 544
+      "citedBy": 545
     },
     {
       "title": "Metasurface enabled quantum edge detection",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Generation of perfect vortex and vector beams based on Pancharatnam-Berry phase elements",
-      "citedBy": 264
+      "citedBy": 265
     },
     {
       "title": "Two-dimensional optical spatial differentiation and high-contrast imaging",
@@ -112,12 +112,12 @@
       "citedBy": 25
     },
     {
-      "title": "Super resolution label-free dark-field microscopy by deep learning",
+      "title": "Meta-Device for Field-of-View Tunability via Adaptive Optical Spatial Differentiation",
       "citedBy": 24
     },
     {
-      "title": "Meta-Device for Field-of-View Tunability via Adaptive Optical Spatial Differentiation",
-      "citedBy": 23
+      "title": "Super resolution label-free dark-field microscopy by deep learning",
+      "citedBy": 24
     },
     {
       "title": "Deep Learning Assisted Plasmonic Dark-Field Microscopy for Super-Resolution Label-Free Imaging",
