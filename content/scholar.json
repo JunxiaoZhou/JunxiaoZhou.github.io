@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3300
+    "all": 3305
   },
   "hIndex": {
     "all": 25
@@ -25,7 +25,7 @@
     },
     {
       "title": "Ultrasensitive and real-time detection of chemical reaction rate based on the photonic spin Hall effect",
-      "citedBy": 156
+      "citedBy": 157
     },
     {
       "title": "Spatial differential operation and edge detection based on the geometric spin Hall effect of light",
@@ -49,7 +49,7 @@
     },
     {
       "title": "Advanced Manufacturing of Dielectric Meta-devices",
-      "citedBy": 100
+      "citedBy": 101
     },
     {
       "title": "Wavelength-independent optical fully differential operation based on the spin–orbit interaction of light",
@@ -105,7 +105,7 @@
     },
     {
       "title": "Visible and near-infrared dual band switchable metasurface edge imaging",
-      "citedBy": 27
+      "citedBy": 28
     },
     {
       "title": "A spin controlled wavefront shaping metasurface with low dispersion in visible frequencies",
@@ -132,12 +132,12 @@
       "citedBy": 21
     },
     {
-      "title": "Tunable meta-device for large depth of field quantitative phase imaging",
+      "title": "Varifocal Meta‐Lens for Multifunctional Focusing and Imaging",
       "citedBy": 20
     },
     {
-      "title": "Varifocal Meta‐Lens for Multifunctional Focusing and Imaging",
-      "citedBy": 19
+      "title": "Tunable meta-device for large depth of field quantitative phase imaging",
+      "citedBy": 20
     },
     {
       "title": "Photonic spin filter with dielectric metasurfaces",
@@ -176,12 +176,12 @@
       "citedBy": 7
     },
     {
-      "title": "Tunable topological phase transition in the telecommunication wavelength",
+      "title": "Varifocal Alvarez metalens array for adaptive light-field imaging",
       "citedBy": 6
     },
     {
-      "title": "Varifocal Alvarez metalens array for adaptive light-field imaging",
-      "citedBy": 5
+      "title": "Tunable topological phase transition in the telecommunication wavelength",
+      "citedBy": 6
     },
     {
       "title": "Optical Topological Differentiation Cryptography",
