@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3310
+    "all": 3313
   },
   "hIndex": {
     "all": 25
@@ -9,11 +9,11 @@
   "articles": [
     {
       "title": "Optical edge detection based on high-efficiency dielectric metasurface",
-      "citedBy": 546
+      "citedBy": 547
     },
     {
       "title": "Metasurface enabled quantum edge detection",
-      "citedBy": 266
+      "citedBy": 267
     },
     {
       "title": "Generation of perfect vortex and vector beams based on Pancharatnam-Berry phase elements",
@@ -49,7 +49,7 @@
     },
     {
       "title": "Advanced Manufacturing of Dielectric Meta-devices",
-      "citedBy": 102
+      "citedBy": 103
     },
     {
       "title": "Wavelength-independent optical fully differential operation based on the spin–orbit interaction of light",
