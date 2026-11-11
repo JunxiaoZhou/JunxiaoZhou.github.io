@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3313
+    "all": 3315
   },
   "hIndex": {
     "all": 25
@@ -9,7 +9,7 @@
   "articles": [
     {
       "title": "Optical edge detection based on high-efficiency dielectric metasurface",
-      "citedBy": 547
+      "citedBy": 548
     },
     {
       "title": "Metasurface enabled quantum edge detection",
@@ -25,7 +25,7 @@
     },
     {
       "title": "Ultrasensitive and real-time detection of chemical reaction rate based on the photonic spin Hall effect",
-      "citedBy": 156
+      "citedBy": 157
     },
     {
       "title": "Spatial differential operation and edge detection based on the geometric spin Hall effect of light",
@@ -33,7 +33,7 @@
     },
     {
       "title": "Broadband photonic spin Hall meta-lens",
-      "citedBy": 132
+      "citedBy": 131
     },
     {
       "title": "Roadmap on electromagnetic metamaterials and metasurfaces",
@@ -172,12 +172,12 @@
       "citedBy": 9
     },
     {
-      "title": "Plan meta-objective for sub-micron quantitative phase imaging",
+      "title": "Varifocal Alvarez metalens array for adaptive light-field imaging",
       "citedBy": 7
     },
     {
-      "title": "Varifocal Alvarez metalens array for adaptive light-field imaging",
-      "citedBy": 6
+      "title": "Plan meta-objective for sub-micron quantitative phase imaging",
+      "citedBy": 7
     },
     {
       "title": "Tunable topological phase transition in the telecommunication wavelength",
