@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3315
+    "all": 3321
   },
   "hIndex": {
     "all": 25
@@ -21,7 +21,7 @@
     },
     {
       "title": "Two-dimensional optical spatial differentiation and high-contrast imaging",
-      "citedBy": 187
+      "citedBy": 188
     },
     {
       "title": "Ultrasensitive and real-time detection of chemical reaction rate based on the photonic spin Hall effect",
@@ -49,7 +49,7 @@
     },
     {
       "title": "Advanced Manufacturing of Dielectric Meta-devices",
-      "citedBy": 103
+      "citedBy": 104
     },
     {
       "title": "Wavelength-independent optical fully differential operation based on the spin–orbit interaction of light",
@@ -65,7 +65,7 @@
     },
     {
       "title": "Metasurface enabled high-order differentiator",
-      "citedBy": 82
+      "citedBy": 83
     },
     {
       "title": "Nonlinear computational edge detection metalens",
@@ -96,12 +96,12 @@
       "citedBy": 33
     },
     {
-      "title": "Spin-dependent manipulating of vector beams by tailoring polarization",
+      "title": "Eagle‐Eye Inspired Meta‐Device for Phase Imaging",
       "citedBy": 32
     },
     {
-      "title": "Eagle‐Eye Inspired Meta‐Device for Phase Imaging",
-      "citedBy": 31
+      "title": "Spin-dependent manipulating of vector beams by tailoring polarization",
+      "citedBy": 32
     },
     {
       "title": "Visible and near-infrared dual band switchable metasurface edge imaging",
@@ -157,7 +157,7 @@
     },
     {
       "title": "Advanced Quantitative Phase Microscopy Achieved with Spatial Multiplexing and a Metasurface",
-      "citedBy": 14
+      "citedBy": 15
     },
     {
       "title": "Tunable dielectric BIC metasurface for high resolution optical filters",
@@ -172,11 +172,11 @@
       "citedBy": 9
     },
     {
-      "title": "Varifocal Alvarez metalens array for adaptive light-field imaging",
-      "citedBy": 7
+      "title": "Plan meta-objective for sub-micron quantitative phase imaging",
+      "citedBy": 8
     },
     {
-      "title": "Plan meta-objective for sub-micron quantitative phase imaging",
+      "title": "Varifocal Alvarez metalens array for adaptive light-field imaging",
       "citedBy": 7
     },
     {
