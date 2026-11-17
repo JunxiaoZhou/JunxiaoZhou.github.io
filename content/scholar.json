@@ -1,10 +1,10 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3324
+    "all": 3327
   },
   "hIndex": {
-    "all": 25
+    "all": 26
   },
   "articles": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "title": "Generation of perfect vortex and vector beams based on Pancharatnam-Berry phase elements",
-      "citedBy": 266
+      "citedBy": 267
     },
     {
       "title": "Two-dimensional optical spatial differentiation and high-contrast imaging",
@@ -109,7 +109,7 @@
     },
     {
       "title": "A spin controlled wavefront shaping metasurface with low dispersion in visible frequencies",
-      "citedBy": 25
+      "citedBy": 26
     },
     {
       "title": "Meta-Device for Field-of-View Tunability via Adaptive Optical Spatial Differentiation",
@@ -144,12 +144,12 @@
       "citedBy": 18
     },
     {
-      "title": "Manipulating the spin-dependent splitting by geometric Doppler effect",
+      "title": "Resonant Meta‐Lens in the Visible",
       "citedBy": 17
     },
     {
-      "title": "Resonant Meta‐Lens in the Visible",
-      "citedBy": 16
+      "title": "Manipulating the spin-dependent splitting by geometric Doppler effect",
+      "citedBy": 17
     },
     {
       "title": "Speckle structured illumination endoscopy with enhanced resolution at wide field of view and depth of field",
