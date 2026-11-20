@@ -1,7 +1,7 @@
 {
   "authorId": "XsS_vrgAAAAJ",
   "citations": {
-    "all": 3327
+    "all": 3329
   },
   "hIndex": {
     "all": 26
@@ -65,7 +65,7 @@
     },
     {
       "title": "Metasurface enabled high-order differentiator",
-      "citedBy": 84
+      "citedBy": 85
     },
     {
       "title": "Nonlinear computational edge detection metalens",
@@ -172,12 +172,12 @@
       "citedBy": 9
     },
     {
-      "title": "Plan meta-objective for sub-micron quantitative phase imaging",
+      "title": "Varifocal Alvarez metalens array for adaptive light-field imaging",
       "citedBy": 8
     },
     {
-      "title": "Varifocal Alvarez metalens array for adaptive light-field imaging",
-      "citedBy": 7
+      "title": "Plan meta-objective for sub-micron quantitative phase imaging",
+      "citedBy": 8
     },
     {
       "title": "Tunable topological phase transition in the telecommunication wavelength",
